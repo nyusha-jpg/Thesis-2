@@ -6,6 +6,7 @@ using Debug = UnityEngine.Debug;
 
 public class ShowerManager : MonoBehaviour
 {
+    public GameObject[] clothing;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,8 @@ public class ShowerManager : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D col)
     {
-        Debug.Log("Collision detected");
+
+        //if all objects in array detect collision, play shower anim
+        //Debug.Log("Collision detected");
     }
 }
