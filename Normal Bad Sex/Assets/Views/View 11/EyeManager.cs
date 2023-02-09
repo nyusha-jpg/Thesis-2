@@ -35,7 +35,7 @@ public class EyeManager : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col)
     {
         isCurrentlyColliding = true;
-        Debug.Log(isCurrentlyColliding);
+        //Debug.Log(isCurrentlyColliding);
     }
 
     void OnCollisionExit2D(Collision2D col)
