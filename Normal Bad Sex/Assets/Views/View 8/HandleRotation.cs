@@ -8,16 +8,7 @@ using Debug = UnityEngine.Debug;
 public class HandleRotation : MonoBehaviour
 {
 
-    public GameObject ColliderA;
-    public GameObject ColliderB;
-    public GameObject rotationStick;
-
-    public bool colliderAHit;
-    public bool colliderBHit;
-
-    private int rotationCount;
-
-    //Counting Rotations
+       //Counting Rotations
     /* private float totalRotation = 0;
     public int nrOfRotations; */
 
@@ -40,6 +31,7 @@ public class HandleRotation : MonoBehaviour
 
     public void Start()
     {
+        
         //Counting Rotations
         /* lastPoint = transform.TransformDirection(Vector3.forward);
         lastPoint.z = 0; */
@@ -47,7 +39,8 @@ public class HandleRotation : MonoBehaviour
         //Lorg's code
         originalRotation = this.transform.rotation;
         colHandle = GetComponent<CircleCollider2D>();
-   
+        
+
     }
 
     void Update()
@@ -74,13 +67,7 @@ public class HandleRotation : MonoBehaviour
             }
         }
 
-        if (colliderAHit == true && colliderBHit == true)
-        {
-            rotationCount++;
-            Debug.Log("Rotations: " + rotationCount);
-            colliderAHit = false;
-            colliderBHit = false;
-        }
+       
 
 
         //Counting Rotations
@@ -123,20 +110,5 @@ public class HandleRotation : MonoBehaviour
         newRotation.y = 0; //see comment from above 
         newRotation.eulerAngles = new Vector3(0,0,newRotation.eulerAngles.z);
         this.transform.rotation = originalRotation *  newRotation;
-    }
-
-    public void OnCollision2DEnter (Collision2D collisioner)
-    {
-        if (transform.gameObject.name == "ColliderA")
-        {
-            colliderAHit = true;
-            Debug.Log("Col A hit");
-        }
-
-        if (transform.gameObject.name == "ColliderB")
-        {
-            colliderBHit = true;
-            Debug.Log("Col B hit");
-        }
     }
 }
