@@ -1,33 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
-using Fungus;
-using Collision2D = UnityEngine.Collision2D;
+using Debug = UnityEngine.Debug;
 
-public class ShipManager : MonoBehaviour
+public class TearWipe : MonoBehaviour
 {
-    public Flowchart flowchart;
-
     public float speed = 20f;
 
-    // public GameObject tigerShip;
-    //public GameObject lionShip;
-    public GameObject speechLion;
-    public GameObject speechTiger;
+    public GameObject tearLeft;
+    public Animator fadeTearLeftAnim;
 
     // Start is called before the first frame update
     void Start()
     {
-        speechLion.SetActive(false);
-        speechTiger.SetActive(false);
+        fadeTearLeftAnim = tearLeft.GetComponent<Animator>();
     }
 
-
+    // Update is called once per frame
     void Update()
     {
-
-        //Ship Controls
-
         Vector3 pos = transform.position;
 
         if (Input.GetKey("w") || (Input.GetKey(KeyCode.UpArrow)))
@@ -52,16 +44,8 @@ public class ShipManager : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D col)
     {
-        speechLion.SetActive(true);
-        speechTiger.SetActive(true);
+        fadeTearLeftAnim.Play("FadeAway");
+        Debug.Log("Tear hit");
     }
-
-    public void OnCollisionExit2D(Collision2D coll)
-    {
-        speechLion.SetActive(false);
-        speechTiger.SetActive(false);
-    }
-
-
 }
 
