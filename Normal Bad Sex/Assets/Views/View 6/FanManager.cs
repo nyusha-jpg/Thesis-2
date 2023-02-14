@@ -22,14 +22,14 @@ public class FanManager : MonoBehaviour
     {
         if (fanUp == false && Input.GetKey("w") || (Input.GetKeyDown(KeyCode.UpArrow)))
         {
-            Debug.Log("going up");
+            //Debug.Log("going up");
             fanAnim.Play("FanUp");
             fanUp = true;
         }
 
         if (fanUp == true && Input.GetKey("s") || (Input.GetKeyDown(KeyCode.DownArrow)))
         {
-            Debug.Log("going down");
+            //Debug.Log("going down");
             fanAnim.Play("FanDown");
             fanUp = false;
         }

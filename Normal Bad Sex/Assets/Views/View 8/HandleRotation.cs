@@ -1,21 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Runtime.InteropServices;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
 
 public class HandleRotation : MonoBehaviour
 {
-    //Counting Rotations
-    private float totalRotation = 0;
-    public int nrOfRotations
+
+       //Counting Rotations
+    /* private float totalRotation = 0;
+    public int nrOfRotations; */
+
+    /*
     {
         get
         {
             return ((int)totalRotation) / 360;
         }
     }
+    
     private Vector3 lastPoint;
+      */
 
     //Lorg's Code
     Quaternion originalRotation;
@@ -25,14 +31,16 @@ public class HandleRotation : MonoBehaviour
 
     public void Start()
     {
+        
         //Counting Rotations
-        lastPoint = transform.TransformDirection(Vector3.forward);
-        lastPoint.z = 0;
+        /* lastPoint = transform.TransformDirection(Vector3.forward);
+        lastPoint.z = 0; */
 
         //Lorg's code
         originalRotation = this.transform.rotation;
         colHandle = GetComponent<CircleCollider2D>();
-   
+        
+
     }
 
     void Update()
@@ -59,26 +67,30 @@ public class HandleRotation : MonoBehaviour
             }
         }
 
+       
+
 
         //Counting Rotations
-        Vector3 facing = transform.TransformDirection(Vector3.forward);
-        facing.z = 0;
-
-        float angle = Vector3.Angle(lastPoint, facing);
-        if (Vector3.Cross(lastPoint, facing).z < 0)
-            angle *= -1;
-
-        totalRotation += angle;
-        lastPoint = facing;
-
-        //All the debugs
-
         /*
-        Debug.Log("Facing: " + facing);
-        Debug.Log("Angle: " + angle);
-        Debug.Log("Total Rotation: " + totalRotation);
-        Debug.Log("Number: " + nrOfRotations);
-        */
+          Vector3 facing = transform.TransformDirection(Vector3.forward);
+          facing.z = 0;
+
+          float angle = Vector3.Angle(lastPoint, facing);
+          if (Vector3.Cross(lastPoint, facing).z < 0)
+              angle *= -1;
+
+          totalRotation += angle;
+          lastPoint = facing;
+
+          //All the debugs
+
+          /*
+          Debug.Log("Facing: " + facing);
+          Debug.Log("Angle: " + angle);
+          Debug.Log("Total Rotation: " + totalRotation);
+          Debug.Log("Number: " + nrOfRotations);
+          */
+
     }
 
     public void InputIsDown()
