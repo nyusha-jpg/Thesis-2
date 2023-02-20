@@ -176,7 +176,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 8181131767003575156}
   selectedCommands: []
   variables: []
   description: 
@@ -205,7 +206,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 224
     y: 78
-    width: 95.33333
+    width: 95.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -321,7 +322,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 361
     y: 78
-    width: 95.33333
+    width: 95.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -456,7 +457,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 479
     y: 78
-    width: 95.33333
+    width: 95.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -730,7 +731,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 603
     y: 78
-    width: 95.33333
+    width: 95.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1004,8 +1005,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 738
-    y: 72
-    width: 97.33333
+    y: 79
+    width: 97.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
