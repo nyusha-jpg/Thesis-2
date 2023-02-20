@@ -14,8 +14,7 @@ public class FanManager : MonoBehaviour
     {
         bool fanUp = true;
         fanAnim = GetComponent<Animator>();
-        Debug.Log("Fan Up? " + fanUp);
-
+       
     }
 
    // Update is called once per frame
@@ -23,18 +22,16 @@ public class FanManager : MonoBehaviour
     {
         if (fanUp == false && Input.GetKey("w") || (Input.GetKeyDown(KeyCode.UpArrow)))
         {
-            Debug.Log("Fan going up");
-            fanAnim.Play("FanUp"); 
+            //Debug.Log("going up");
+            fanAnim.Play("FanUp");
             fanUp = true;
-            Debug.Log("Fan Up? " + fanUp);
         }
 
         if (fanUp == true && Input.GetKey("s") || (Input.GetKeyDown(KeyCode.DownArrow)))
         {
-            Debug.Log("Fan going down");
+            //Debug.Log("going down");
             fanAnim.Play("FanDown");
             fanUp = false;
-            Debug.Log("Fan Up? " + fanUp);
         }
     }
 }

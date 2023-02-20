@@ -45,7 +45,7 @@ public class TearWipe : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D col)
     {
         fadeTearLeftAnim.Play("FadeAway");
-       // Debug.Log("Tear hit");
+        Debug.Log("Tear hit");
     }
 }
 

@@ -41,8 +41,8 @@ public class RotationCounter : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        //Debug.Log("collided with : " + collision.gameObject.name);
-        //Debug.Log("collided with something");
+        Debug.Log("collided with : " + collision.gameObject.name);
+        Debug.Log("collided with something");
         if (collision.gameObject.name == "ColliderA")
         {
             colliderAHit = true;
@@ -57,8 +57,8 @@ public class RotationCounter : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D other)
     {
-        //Debug.Log("collided with : " + other.gameObject.name);
-        //Debug.Log("collided with something");
+        Debug.Log("collided with : " + other.gameObject.name);
+        Debug.Log("collided with something");
         if (other.gameObject.name == "ColliderA")
         {
             colliderAHit = true;
