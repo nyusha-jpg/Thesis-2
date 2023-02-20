@@ -4446,8 +4446,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 6772157932476497090}
+  selectedCommands:
+  - {fileID: 6772157932476497003}
   variables:
   - {fileID: 6772157932476496916}
   - {fileID: 6772157932476496907}
@@ -4556,7 +4558,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 462.01025
     y: 101.64641
-    width: 87.878784
+    width: 88.18181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4673,7 +4675,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 432.3216
     y: 176.04243
-    width: 136.36362
+    width: 138.1818
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5036,7 +5038,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 600.14374
     y: 95.13411
-    width: 87.878784
+    width: 88.18181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5433,7 +5435,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 725.76074
     y: 96.04439
-    width: 87.878784
+    width: 88.18181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5572,7 +5574,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 844.55396
     y: 98.033615
-    width: 87.878784
+    width: 88.18181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5627,7 +5629,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1087.8865
     y: 97.96197
-    width: 93.939384
+    width: 94.54544
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5686,7 +5688,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 962.04736
     y: 97.71981
-    width: 87.878784
+    width: 88.18181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5908,7 +5910,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 825.26904
     y: 208.29662
-    width: 127.27271
+    width: 129.09088
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6511,7 +6513,7 @@ MonoBehaviour:
   storyText: 'Uh, and then the three of us decide that to wind down the night, '
   description: 
   character: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 577833677ab2ba8489b1ac0f3162ad52, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
