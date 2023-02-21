@@ -989,11 +989,11 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: a164a334f912e0d49876ab9d4765eab6, type: 3}
-  - {fileID: 21300000, guid: c0b28d7189c3fd44aa2506ed35555f34, type: 3}
-  - {fileID: 21300000, guid: a0d19cce39c0662448ad1a19b33e7369, type: 3}
-  - {fileID: 21300000, guid: b078ab8e91e387842b6bac0332428994, type: 3}
   - {fileID: 21300000, guid: 7341d0002da00a24e82774ce8d558fc5, type: 3}
+  - {fileID: 21300000, guid: b078ab8e91e387842b6bac0332428994, type: 3}
+  - {fileID: 21300000, guid: a0d19cce39c0662448ad1a19b33e7369, type: 3}
+  - {fileID: 21300000, guid: c0b28d7189c3fd44aa2506ed35555f34, type: 3}
+  - {fileID: 21300000, guid: a164a334f912e0d49876ab9d4765eab6, type: 3}
   portraitsFace: 2
   setSayDialog: {fileID: 656133143}
   description: 
@@ -1790,7 +1790,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4.23, y: 2.4}
+  m_Size: {x: 6.12, y: 3.59}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3442,13 +3442,13 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: f16d62dce07eed94287dadb7a268a35b, type: 3}
-  - {fileID: 21300000, guid: 601a0d4b90c75e542ad6feab3e1890f6, type: 3}
-  - {fileID: 21300000, guid: 6462e7287e0f8c54cacae38a72f2fc1c, type: 3}
-  - {fileID: 21300000, guid: 577833677ab2ba8489b1ac0f3162ad52, type: 3}
-  - {fileID: 21300000, guid: ec102c463b4e316488263dc565d1ec14, type: 3}
-  - {fileID: 21300000, guid: 0cdce896dafaa8b4f87805b0128d75dd, type: 3}
   - {fileID: 21300000, guid: 3539e786e2cccfb45a97aac70ce88866, type: 3}
+  - {fileID: 21300000, guid: 0cdce896dafaa8b4f87805b0128d75dd, type: 3}
+  - {fileID: 21300000, guid: ec102c463b4e316488263dc565d1ec14, type: 3}
+  - {fileID: 21300000, guid: 577833677ab2ba8489b1ac0f3162ad52, type: 3}
+  - {fileID: 21300000, guid: 6462e7287e0f8c54cacae38a72f2fc1c, type: 3}
+  - {fileID: 21300000, guid: 601a0d4b90c75e542ad6feab3e1890f6, type: 3}
+  - {fileID: 21300000, guid: f16d62dce07eed94287dadb7a268a35b, type: 3}
   portraitsFace: 1
   setSayDialog: {fileID: 1562200168}
   description: 
@@ -3702,8 +3702,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1904147046}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -4920,6 +4919,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 633831972678319522, guid: 5c9901492d94a3d4c87dc779713d70c2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5778437445510477093, guid: 5c9901492d94a3d4c87dc779713d70c2, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -5008,6 +5011,10 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 1807560723}
+    - target: {fileID: 7830207861209134866, guid: 5c9901492d94a3d4c87dc779713d70c2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9901492d94a3d4c87dc779713d70c2, type: 3}
 --- !u!1001 &6772157932625733042
@@ -5384,7 +5391,7 @@ PrefabInstance:
       objectReference: {fileID: 1807560723}
     - target: {fileID: 8181131767003574933, guid: 3fcb6d3b6e256c9428f2c760bf345ecf, type: 3}
       propertyPath: selectedBlocks.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8181131767003574936, guid: 3fcb6d3b6e256c9428f2c760bf345ecf, type: 3}
       propertyPath: character
