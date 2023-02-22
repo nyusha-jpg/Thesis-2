@@ -30,14 +30,12 @@ GameObject:
   - component: {fileID: 5133722788800020175}
   - component: {fileID: 5133722788800020174}
   - component: {fileID: 5133722788800020177}
-  - component: {fileID: 5133722788800020176}
   - component: {fileID: 5133722788800020179}
   - component: {fileID: 5133722788800020178}
   - component: {fileID: 5133722788800020181}
   - component: {fileID: 5133722788800020180}
   - component: {fileID: 5133722788800020183}
   - component: {fileID: 5133722788800020182}
-  - component: {fileID: 5133722788800020185}
   - component: {fileID: 5133722788800020184}
   - component: {fileID: 5133722788800020187}
   - component: {fileID: 5133722788800020186}
@@ -136,9 +134,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 5133722788800020100}
-  selectedCommands:
-  - {fileID: 5133722788800020106}
+  - {fileID: 5133722788800020028}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -164,8 +161,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
-    y: 70
+    x: 69
+    y: 69
     width: 96.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -574,8 +571,6 @@ MonoBehaviour:
   - {fileID: 5133722788800020174}
   - {fileID: 5133722788800020182}
   - {fileID: 5133722788800020177}
-  - {fileID: 5133722788800020185}
-  - {fileID: 5133722788800020176}
   suppressAllAutoSelections: 0
 --- !u!114 &5133722788800020170
 MonoBehaviour:
@@ -729,34 +724,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: 'to be like, Hey, you did a thing. And that was kind of fucked up. '
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &5133722788800020176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5133722788800020108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 20
-  indentLevel: 0
-  storyText: And you know what? I don't think I'm over it.
+  storyText: to be like, Hey, you did a thing. And that was kind of fucked up. And
+    you know what? I don't think I'm over it.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -949,36 +918,6 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &5133722788800020185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5133722788800020108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 27
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 0}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 3539e786e2cccfb45a97aac70ce88866, type: 3}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &5133722788800020184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -994,7 +933,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 417
-    y: 76
+    y: 75
     width: 96.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1030,7 +969,7 @@ MonoBehaviour:
   itemId: 29
   indentLevel: 0
   storyText: 'Yeah. Yeah. I have seen our character development up close and it''s
-    been amazing '
+    been amazing and I''m always in awe of like, '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1057,8 +996,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: 'and I''m always in awe of like, what a- how much of a stronger and
-    more powerful version of yourself you''re constantly evolving into.
+  storyText: 'what a- how much of a stronger and more powerful version of yourself
+    you''re constantly evolving into.
 
 '
   description: 
@@ -1595,7 +1534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  storyText: ' I can put like after the credits screen where I say like Cat- '
+  storyText: ' I can put like after the credits screen where I say like - '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1622,7 +1561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  storyText: 'or whatever I put AS your little thing- '
+  storyText: 'Cat or whatever I put AS your little thing- '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

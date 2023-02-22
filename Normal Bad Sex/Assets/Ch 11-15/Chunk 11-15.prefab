@@ -1391,12 +1391,10 @@ GameObject:
   - component: {fileID: 5605497525037520151}
   - component: {fileID: 3860760398394221344}
   - component: {fileID: 7034478201217813314}
-  - component: {fileID: 3294324988385244845}
   - component: {fileID: 6159563093812246675}
   - component: {fileID: 1113872548056424546}
   - component: {fileID: 2732164903414931591}
   - component: {fileID: 426133257089978381}
-  - component: {fileID: 6064656525858139144}
   - component: {fileID: 7325494338619331591}
   m_Layer: 0
   m_Name: Flowchart 3 (11-15)
@@ -1448,7 +1446,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 3860760398394221344}
   selectedCommands: []
   variables:
   - {fileID: 5778437445841347589}
@@ -1937,7 +1936,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 124
   indentLevel: 0
-  storyText: 'And I woke up because I felt something moving next to me. '
+  storyText: ' And then I fell back asleep. And I woke up because I felt something
+    moving next to me. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2168,7 +2168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 170
   indentLevel: 0
-  storyText: 'Um, and Tiger and Bear were asleep. And then I fell back asleep. '
+  storyText: Um, and Tiger and Bear were asleep.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3069,8 +3069,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 2732164903414931591}
   - {fileID: 7034478201217813314}
-  - {fileID: 6064656525858139144}
-  - {fileID: 3294324988385244845}
   - {fileID: 426133257089978381}
   - {fileID: 6159563093812246675}
   - {fileID: 7325494338619331591}
@@ -3090,35 +3088,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 201
   indentLevel: 0
-  storyText: "The three of us still got brunch afterwards. And Tiger hit me with
-    a this was really fun. We should do this again. \n"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &3294324988385244845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5778437445841347733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 202
-  indentLevel: 0
-  storyText: 'And I was like-
+  storyText: 'The three of us still got brunch afterwards. And Tiger hit me with
+    a this was really fun. We should do this again. And I was like-
+
 
 '
   description: 
@@ -3241,36 +3213,6 @@ MonoBehaviour:
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: a164a334f912e0d49876ab9d4765eab6, type: 3}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
---- !u!114 &6064656525858139144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5778437445841347733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 207
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 0}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 3539e786e2cccfb45a97aac70ce88866, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
