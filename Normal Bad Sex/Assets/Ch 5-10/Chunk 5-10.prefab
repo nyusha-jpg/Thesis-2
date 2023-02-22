@@ -4355,7 +4355,6 @@ GameObject:
   - component: {fileID: 6772157932476497002}
   - component: {fileID: 6772157932476496997}
   - component: {fileID: 6772157932476496996}
-  - component: {fileID: 6772157932476496999}
   - component: {fileID: 6772157932476496998}
   - component: {fileID: 6772157932476496993}
   - component: {fileID: 6772157932476496992}
@@ -4370,7 +4369,6 @@ GameObject:
   - component: {fileID: 6772157932476497019}
   - component: {fileID: 6772157932476497018}
   - component: {fileID: 6772157932476497013}
-  - component: {fileID: 6772157932476496964}
   - component: {fileID: 6772157932476496967}
   - component: {fileID: 6772157932476496966}
   - component: {fileID: 6772157932476496961}
@@ -4448,8 +4446,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 6772157932476497090}
-  selectedCommands:
-  - {fileID: 6772157932476497003}
+  selectedCommands: []
   variables:
   - {fileID: 6772157932476496916}
   - {fileID: 6772157932476496907}
@@ -4558,7 +4555,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 462.01025
     y: 101.64641
-    width: 88.18181
+    width: 87.49999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4574,8 +4571,6 @@ MonoBehaviour:
   - {fileID: 6772157932476496930}
   - {fileID: 6772157932476496993}
   - {fileID: 6772157932476496997}
-  - {fileID: 6772157932476496964}
-  - {fileID: 6772157932476496999}
   - {fileID: 6772157932476496966}
   - {fileID: 6772157932476496996}
   - {fileID: 6772157932476496967}
@@ -4675,7 +4670,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 432.3216
     y: 176.04243
-    width: 138.1818
+    width: 135.98483
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5038,7 +5033,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 600.14374
     y: 95.13411
-    width: 88.18181
+    width: 87.49999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5435,7 +5430,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 725.76074
     y: 96.04439
-    width: 88.18181
+    width: 87.49999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5574,7 +5569,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 844.55396
     y: 98.033615
-    width: 88.18181
+    width: 87.49999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5629,7 +5624,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1087.8865
     y: 97.96197
-    width: 94.54544
+    width: 93.56059
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5688,7 +5683,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 962.04736
     y: 97.71981
-    width: 88.18181
+    width: 87.49999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5910,7 +5905,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 825.26904
     y: 208.29662
-    width: 129.09088
+    width: 126.89392
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6510,7 +6505,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 169
   indentLevel: 0
-  storyText: 'Uh, and then the three of us decide that to wind down the night, '
+  storyText: 'Uh, and then the three of us decide that to wind down the night, we
+    should all take a shower together and see where things go. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6539,33 +6535,6 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'We head to the bathroom and undress each other and get in the shower
     and start to, like.... '
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 0
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &6772157932476496999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6772157932476497028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 171
-  indentLevel: 0
-  storyText: 'we should all take a shower together and see where things go. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6734,7 +6703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 177
   indentLevel: 0
-  storyText: 'And then Bear and Tiger kind of focus on each other. '
+  storyText: And then Bear and Tiger kind of focus on each other and ...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6968,36 +6937,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &6772157932476496964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6772157932476497028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 186
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 0}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 3539e786e2cccfb45a97aac70ce88866, type: 3}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &6772157932476496967
 MonoBehaviour:
   m_ObjectHideFlags: 0
