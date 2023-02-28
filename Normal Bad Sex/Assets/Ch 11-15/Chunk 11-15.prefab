@@ -816,10 +816,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7649c44adb7932c488d73cf3b9e60d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eye: {fileID: 0}
-  eyeAnim: {fileID: 0}
-  blowjob: {fileID: 0}
-  blowjobAnim: {fileID: 0}
+  eye: {fileID: 5778437444828631242}
+  eyeAnim: {fileID: 5778437444828631247}
+  blowjob: {fileID: 5778437445097759575}
+  blowjobAnim: {fileID: 5778437445097759579}
   isCurrentlyColliding: 0
 --- !u!111 &5778437445097759578
 Animation:
