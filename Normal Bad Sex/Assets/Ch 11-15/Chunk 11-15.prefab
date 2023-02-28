@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5059134467508356747}
   - component: {fileID: 6943351861597558640}
+  - component: {fileID: 350800975625679138}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2604302722788968833}
   m_LocalRotation: {x: -0, y: -0, z: -0.3638981, w: 0.9314388}
-  m_LocalPosition: {x: 7.5, y: 1.13, z: -6.8441086}
+  m_LocalPosition: {x: -5.19, y: -7.27, z: -6.844109}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -84,6 +85,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &350800975625679138
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2604302722788968833}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 317362f2e78554fb3bcf9f9a245b30fc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3502327755155304112
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,7 +215,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5221204079837251816}
   m_LocalRotation: {x: -0, y: -0, z: 0.34468636, w: 0.93871796}
-  m_LocalPosition: {x: -13.43, y: -1.98, z: -6.844109}
+  m_LocalPosition: {x: -8.15, y: -8.17, z: -6.844109}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3684,6 +3705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3019584700235792927}
   - component: {fileID: 3891688835708979063}
+  - component: {fileID: 3001797687044960940}
   m_Layer: 0
   m_Name: Bomb
   m_TagString: Untagged
@@ -3699,7 +3721,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6230248796162158257}
   m_LocalRotation: {x: -0, y: -0, z: 0.166689, w: 0.9860096}
-  m_LocalPosition: {x: -2.84, y: 1.5, z: -6.8441086}
+  m_LocalPosition: {x: -2.19, y: -4.48, z: -6.8441086}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3758,6 +3780,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &3001797687044960940
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6230248796162158257}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a8286310d9008411a94cc0966bde6d50, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7753398455194554855
 GameObject:
   m_ObjectHideFlags: 0
@@ -3852,6 +3894,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1086648217738408673}
   - component: {fileID: 6777731431502335299}
+  - component: {fileID: 674185283335747360}
   m_Layer: 0
   m_Name: Hammer
   m_TagString: Untagged
@@ -3867,7 +3910,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8452059097458998807}
   m_LocalRotation: {x: -0, y: -0, z: 0.007880088, w: 0.999969}
-  m_LocalPosition: {x: -1.3428345, y: -1.2777328, z: -6.8441086}
+  m_LocalPosition: {x: -1.56, y: -8.03, z: -6.8441086}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3926,6 +3969,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &674185283335747360
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8452059097458998807}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 90dac1f5db9e84381bfc21dec7f9405f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8924111455271592345
 GameObject:
   m_ObjectHideFlags: 0
@@ -3936,6 +3999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8977191882090391199}
   - component: {fileID: 2405376819606460709}
+  - component: {fileID: 7241634401153095046}
   m_Layer: 0
   m_Name: Axe
   m_TagString: Untagged
@@ -3951,7 +4015,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8924111455271592345}
   m_LocalRotation: {x: -0, y: -0, z: -0.08528869, w: 0.9963563}
-  m_LocalPosition: {x: -12.7, y: 0.9, z: -6.8441086}
+  m_LocalPosition: {x: -10.92, y: 3.24, z: -6.8441086}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4010,3 +4074,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &7241634401153095046
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8924111455271592345}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c506bd52b2f4a4384b91b234c4bf1974, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
