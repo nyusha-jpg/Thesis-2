@@ -6,30 +6,37 @@ public class Balloon : MonoBehaviour
 {
     Animator balloon;
 
+    public string colour;
     void Start()
     {
         balloon = gameObject.GetComponent<Animator>();
+
     }
     void Update()
     {
-        if (gameObject.tag == "Blue") ;
+    }
+
+    void OnMouseOver()
+    {
+        Debug.Log("entering");
+        if (colour == "blue ") ;
         {
 
             if (Input.GetMouseButtonDown(0))
             {
-                balloon.Play("BlueB");
+                balloon.Play("blueB");
             }
 
         }
-        if (gameObject.tag == "red") ;
+        if (colour== "red") ;
         {
 
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButton(0))
             {
                 balloon.Play("redB");
             }
         }
-        if (gameObject.tag == "green") ;
+        if (colour == "green") ;
         {
 
             if (Input.GetMouseButtonDown(0))
