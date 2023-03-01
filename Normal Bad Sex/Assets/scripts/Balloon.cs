@@ -4,17 +4,54 @@ using UnityEngine;
 
 public class Balloon : MonoBehaviour
 {
-    Animator BlueBalloon;
+    Animator balloon;
 
     void Start()
     {
-        BlueBalloon = gameObject.GetComponent<Animator>();
+        balloon = gameObject.GetComponent<Animator>();
     }
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (gameObject.tag == "Blue") ;
         {
-            BlueBalloon.Play("BlueB");
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                balloon.Play("BlueB");
+            }
+
+        }
+        if (gameObject.tag == "red") ;
+        {
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                balloon.Play("redB");
+            }
+        }
+        if (gameObject.tag == "green") ;
+        {
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                balloon.Play("greenB");
+            }
+        }
+        if (gameObject.tag == "Lgreen") ;
+        {
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                balloon.Play("LgreenB");
+            }
+        }
+        if (gameObject.tag == "yellow") ;
+        {
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                balloon.Play("yellowB");
+            }
         }
     }
 }
