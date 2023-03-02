@@ -2,17 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 public class DisplayNextMouth : MonoBehaviour
 {
     public GameObject[] leftSmile;
-    public int leftClicks;
+    public int leftClicks = 0;
     public bool leftFull;
+
+    public GameObject[] rightSmile;
+    public int rightClicks;
+    public bool rightFull;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        leftFull = false;
+        rightFull = false;
+
+        Debug.Log("Left clicks: " + leftClicks);
+
     }
 
     // Update is called once per frame
@@ -20,36 +29,33 @@ public class DisplayNextMouth : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-            if (hit.collider != null)
+            Collider2D col = Physics2D.OverlapPoint(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+            if (col != null && (col.gameObject.tag == "LeftMouth" && leftFull == false))
             {
-                if (gameObject.tag == "LeftSmile")
-                {
                     foreach (GameObject pic in leftSmile)
                     {
-                        if (pic.active)
+                        if (leftClicks < 3)
                         {
-                            if (hit.collider == pic.GetComponent<Collider2D>() && (leftClicks < 3))
-                            {
-                                leftSmile[leftClicks].SetActive(false);
-                                leftClicks++;
-                                leftSmile[leftClicks].SetActive(true);
-                                //Debug.Log("Unbox Clicks: " + leftClicks);
-                            }
+                            leftSmile[leftClicks].SetActive(false);
+                            leftClicks++;
+                            Debug.Log("Left clicks: " + leftClicks);
+                            leftSmile[leftClicks].SetActive(true);
 
-                            if (leftClicks == 2)
-                            {
-                                //Debug.Log("box open");
-                                leftFull = true;
-                                //flowchart.SetBooleanVariable(boxOpen) = true;
-                                // flowchart.SetBooleanVariable("boxOpen", true);
-                            }
+                        }
+
+
+                        if (Input.GetMouseButtonDown(0) && (col.gameObject.tag == "RightMouth" && rightFull == false))
+                        {
+                            Debug.Log("Right smile clicked");
+
                         }
                     }
-                }
+                
             }
+
         }
+
     }
 
-  
 }
+    
