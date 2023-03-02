@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Clown
   - Pen
+  - RightMouth
+  - LeftMouth
   layers:
   - Default
   - TransparentFX

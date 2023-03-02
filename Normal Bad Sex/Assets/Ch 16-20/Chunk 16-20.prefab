@@ -152,10 +152,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1572134258891587397}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcbd8ccc766fc50409d05352e9dffcb4, type: 3}
+  m_Script: {fileID: 11500000, guid: c49221a209b57184d859646c01ca90a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  calling: {fileID: 0}
+  calling: {fileID: 7931628640483975629}
 --- !u!1 &2991771106942435709
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,7 +822,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 5cef2d85b00b06442a5a872351b401a0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: acbaf15e86a41ae41967a0ae0b2c0b18, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -889,7 +889,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7044223311911935252}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a76acc85599dbfe42b0d83e3dd5f307e, type: 3}
+  m_Script: {fileID: 11500000, guid: 51f0286bd6128f74e9d0297adeafe533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   increment: 1
@@ -1346,7 +1346,6 @@ GameObject:
   - component: {fileID: 5995838198233791938}
   - component: {fileID: 1766323661311314409}
   - component: {fileID: 3356585745414055209}
-  - component: {fileID: 1892993760320166353}
   m_Layer: 0
   m_Name: Flowchart 16-20
   m_TagString: Untagged
@@ -1394,7 +1393,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks: []
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 0}
   variables: []
   description: 
   stepPause: 0
@@ -1529,7 +1529,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 8181131767003574941}
-  - {fileID: 1892993760320166353}
+  - {fileID: 0}
   - {fileID: 8181131767003574938}
   - {fileID: 8181131767003574940}
   - {fileID: 4141932547128058247}
@@ -3590,24 +3590,6 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &1892993760320166353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8181131767003574934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c987b33e737044fb185f6ae869a7bc17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 189
-  indentLevel: 0
-  targetDraggable2D: {fileID: 0}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
 --- !u!1 &8181131767306663255
 GameObject:
   m_ObjectHideFlags: 0
