@@ -4,11 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - blue
-  - red
-  - Lgreen
-  - green
-  - yellow
+  - Clown
+  - Pen
   layers:
   - Default
   - TransparentFX
