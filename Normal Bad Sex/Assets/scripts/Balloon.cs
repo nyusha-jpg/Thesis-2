@@ -24,7 +24,7 @@ public class Balloon : MonoBehaviour
 
             if (Input.GetMouseButtonDown(0))
             {
-                balloon.Play("blueB");
+                balloon.Play("Balloon");
             }
 
         }
