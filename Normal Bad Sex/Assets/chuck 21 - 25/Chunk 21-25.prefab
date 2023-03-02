@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5093420170164230097}
-  - component: {fileID: 2990217937702854598}
   m_Layer: 0
   m_Name: DrawingManager
   m_TagString: Untagged
@@ -32,24 +31,6 @@ Transform:
   m_Father: {fileID: 8564304249195671513}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2990217937702854598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2059456590711589614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15f1b2d3c8f1d4e4481fccbcd14a38f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLine: {fileID: 0}
-  lineRenderer: {fileID: 0}
-  edgeCollider: {fileID: 0}
-  fingerPositions: []
-  pen: {fileID: 2658336233331646209}
-  line: {fileID: 2389049439307147980, guid: dcca064cf9d4a0a48a021274f77876fe, type: 3}
 --- !u!1 &2658336233331646209
 GameObject:
   m_ObjectHideFlags: 0
@@ -59,7 +40,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 670877333088813326}
-  - component: {fileID: 360478236845434559}
   - component: {fileID: 4614455599159720380}
   - component: {fileID: 3156336001459391682}
   m_Layer: 0
@@ -84,19 +64,6 @@ Transform:
   m_Father: {fileID: 8564304249195671513}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &360478236845434559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2658336233331646209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96b22d784e794ae489615f313d48705f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  penCol: {fileID: 0}
 --- !u!212 &4614455599159720380
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -164,8 +131,8 @@ PolygonCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 5.2799997, y: 3.3799999, z: 6.2, w: 0.42}
-    pivot: {x: 0.28345278, y: 0.32477105}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 19.2, y: 10.8}
     newSize: {x: 19.2, y: 10.8}
     adaptiveTilingThreshold: 0.5
@@ -335,7 +302,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5833942298212976460
 Transform:
   m_ObjectHideFlags: 0
@@ -999,6 +966,8 @@ GameObject:
   - component: {fileID: 6509991121796381713}
   - component: {fileID: 5222906207612280192}
   - component: {fileID: 7706386209281139028}
+  - component: {fileID: 1741083577}
+  - component: {fileID: 1741083578}
   m_Layer: 0
   m_Name: Flowchart 21-25
   m_TagString: Untagged
@@ -1046,9 +1015,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1967865358451899836}
-  selectedCommands:
-  - {fileID: 1880324670449233586}
+  - {fileID: 5730152526603975976}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1075,8 +1043,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 93
-    y: 68
-    width: 95.6
+    y: 66.73418
+    width: 95.33333
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1152,7 +1120,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 223
-    y: 69
+    y: 70.0989
     width: 106
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1318,9 +1286,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 371
-    y: 66
-    width: 96.4
+    x: 369.7342
+    y: 68.53165
+    width: 96.66667
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1430,7 +1398,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 485
     y: 80
-    width: 97.2
+    width: 97.33333
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2218,7 +2186,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 608
     y: 81
-    width: 97.2
+    width: 97.33333
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2227,6 +2195,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1741083577}
   - {fileID: 8358969098548711578}
   - {fileID: 9125487245242309679}
   - {fileID: 5682196802521309808}
@@ -2544,7 +2513,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 742
     y: 76
-    width: 96.4
+    width: 96.66667
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2553,6 +2522,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1741083578}
   - {fileID: 2537431499446159567}
   - {fileID: 1880324670449233586}
   - {fileID: 960705082536171990}
@@ -3152,6 +3122,48 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &1741083577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8564304249559757631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 73
+  indentLevel: 0
+  duration: 1
+  targetView: {fileID: 8564304249195671512}
+  waitUntilFinished: 1
+  targetCamera: {fileID: 0}
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
+--- !u!114 &1741083578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8564304249559757631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 74
+  indentLevel: 0
+  duration: 1
+  targetView: {fileID: 8564304250005593738}
+  waitUntilFinished: 1
+  targetCamera: {fileID: 0}
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
 --- !u!1 &8564304250005593737
 GameObject:
   m_ObjectHideFlags: 0
