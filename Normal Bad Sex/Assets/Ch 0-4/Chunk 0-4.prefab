@@ -703,6 +703,7 @@ GameObject:
   - component: {fileID: 1494013353985480378}
   - component: {fileID: 1548058817}
   - component: {fileID: 1203853887902788907}
+  - component: {fileID: 1957169951214779466}
   m_Layer: 0
   m_Name: Flowchart 1 (0-4)
   m_TagString: Untagged
@@ -750,8 +751,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 6101497772540964607}
-  selectedCommands: []
+  - {fileID: 5636990486571033188}
+  selectedCommands:
+  - {fileID: 1957169951214779466}
   variables:
   - {fileID: 1211955337156486530}
   - {fileID: 7422005351942008311}
@@ -1179,6 +1181,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1957169951214779466}
   - {fileID: 2446323238925985579}
   - {fileID: 2939111887339463389}
   - {fileID: 5045820478945633958}
@@ -4235,6 +4238,21 @@ MonoBehaviour:
   parentBlock: {fileID: 3766122526789681885}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
+--- !u!114 &1957169951214779466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835486837071017228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 191
+  indentLevel: 0
+  sayDialog: {fileID: 0}
 --- !u!1 &930520787699843652
 GameObject:
   m_ObjectHideFlags: 0
