@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 43.2
+    x: 1920
+    y: 207.2
     width: 1536
     height: 772.8
   m_ShowMode: 4
@@ -1123,8 +1123,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 8a800200
+    m_LastClickedInstanceID: 163978
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000ac6e0000ae6e0000e86b0000e66b0000947a0000f46b0000587d0000fa6b0000707d0000ea6b0000f66b0000b076000056880000
     m_RenameOverlay:
