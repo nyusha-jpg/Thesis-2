@@ -600,7 +600,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4488100403933037791}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 130.8319, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
@@ -688,7 +688,7 @@ MonoBehaviour:
   scrollPos: {x: -304.36673, y: 61.608185}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 335.8
+  blockViewHeight: 407
   zoom: 0.9100001
   scrollViewRect:
     serializedVersion: 2
@@ -698,8 +698,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 4488100404455254753}
-  selectedCommands:
-  - {fileID: 4488100404455254754}
+  selectedCommands: []
   variables:
   - {fileID: 4488100404455254761}
   - {fileID: 4488100404455254781}
@@ -763,7 +762,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 571.21436
     y: 113.69085
-    width: 89.56044
+    width: 88.46153
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
