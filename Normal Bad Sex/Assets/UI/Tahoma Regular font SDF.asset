@@ -10,7 +10,7 @@ Material:
   m_Name: Tahoma Regular font SDF Material
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
   m_ValidKeywords:
-  - UNDERLAY_ON
+  - GLOW_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -53,13 +53,13 @@ Material:
     - _BumpOutline: 0
     - _ColorMask: 15
     - _Diffuse: 0.5
-    - _FaceDilate: 0.16
+    - _FaceDilate: -0.04
     - _FaceUVSpeedX: 0
     - _FaceUVSpeedY: 0
     - _GlowInner: 0
-    - _GlowOffset: 1
-    - _GlowOuter: 1
-    - _GlowPower: 1
+    - _GlowOffset: 0
+    - _GlowOuter: 0.576
+    - _GlowPower: 0.563
     - _GradientScale: 6
     - _LightAngle: 3.1416
     - _MaskSoftnessX: 0
@@ -67,12 +67,12 @@ Material:
     - _OutlineSoftness: 1
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
-    - _OutlineWidth: 0.492
+    - _OutlineWidth: 0.61
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 0.45302168
-    - _ScaleRatioB: 0.271875
-    - _ScaleRatioC: 0.271875
+    - _ScaleRatioA: 0.47415835
+    - _ScaleRatioB: 0.7104166
+    - _ScaleRatioC: 0.5871212
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -84,9 +84,9 @@ Material:
     - _StencilWriteMask: 255
     - _TextureHeight: 512
     - _TextureWidth: 512
-    - _UnderlayDilate: 1
-    - _UnderlayOffsetX: -1
-    - _UnderlayOffsetY: -0.99
+    - _UnderlayDilate: 0.21
+    - _UnderlayOffsetX: 1
+    - _UnderlayOffsetY: 1
     - _UnderlaySoftness: 0
     - _VertexOffsetX: 0
     - _VertexOffsetY: 0

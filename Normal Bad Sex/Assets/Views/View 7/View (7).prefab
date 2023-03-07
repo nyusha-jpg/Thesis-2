@@ -202,7 +202,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 6716984119858597796}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 6716984119858597851}
   variables:
   - {fileID: 6716984119858597809}
   - {fileID: 6716984119858597810}
@@ -1047,7 +1048,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6716984120754327988}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 261.57138, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
