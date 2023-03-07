@@ -452,7 +452,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 447922260099976791}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 447922260099976750}
   variables:
   - {fileID: 447922260099976741}
   - {fileID: 447922260099976736}
@@ -484,9 +485,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 359.29785
+    x: 360.39676
     y: 60.489372
-    width: 87.36263
+    width: 86.26373
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -599,7 +600,7 @@ MonoBehaviour:
   indentLevel: 0
   animator:
     animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
+    animatorVal: {fileID: 447922259926082911}
   stateName:
     stringRef: {fileID: 0}
     stringVal: BPopUp
@@ -625,7 +626,7 @@ MonoBehaviour:
   indentLevel: 0
   animator:
     animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
+    animatorVal: {fileID: 447922260607931167}
   stateName:
     stringRef: {fileID: 0}
     stringVal: TPopUp
@@ -651,7 +652,7 @@ MonoBehaviour:
   indentLevel: 0
   animator:
     animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
+    animatorVal: {fileID: 447922259722982360}
   stateName:
     stringRef: {fileID: 0}
     stringVal: GPopUp
@@ -675,7 +676,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  spriteRenderer: {fileID: 0}
+  spriteRenderer: {fileID: 447922261063133551}
   _duration:
     floatRef: {fileID: 0}
     floatVal: 1
@@ -755,7 +756,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 345.33096
     y: 135.15498
-    width: 137.17947
+    width: 133.51648
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2059,7 +2060,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447922261145492683}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1

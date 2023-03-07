@@ -1079,7 +1079,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8763319737048421645}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 305.4592, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
@@ -1194,9 +1194,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 8763319737074133340}
+  - {fileID: 8763319737074133331}
   selectedCommands:
-  - {fileID: 8763319737074133343}
+  - {fileID: 8763319737074133321}
   variables:
   - {fileID: 8763319737074133306}
   - {fileID: 8763319737074133307}
@@ -1305,7 +1305,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 844.55396
     y: 96.34532
-    width: 87.14284
+    width: 88.57141
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1356,7 +1356,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 825.26904
     y: 208.29662
-    width: 125.23805
+    width: 128.57138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1667,7 +1667,7 @@ MonoBehaviour:
   indentLevel: 1
   animator:
     animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
+    animatorVal: {fileID: 8763319736361427809}
   stateName:
     stringRef: {fileID: 0}
     stringVal: ToyFall
@@ -1693,7 +1693,7 @@ MonoBehaviour:
   indentLevel: 1
   animator:
     animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
+    animatorVal: {fileID: 8763319736547618842}
   stateName:
     stringRef: {fileID: 0}
     stringVal: HandReach
@@ -1719,7 +1719,7 @@ MonoBehaviour:
   indentLevel: 1
   animator:
     animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
+    animatorVal: {fileID: 8763319736588599841}
   stateName:
     stringRef: {fileID: 0}
     stringVal: ShowTroll
@@ -1784,7 +1784,7 @@ MonoBehaviour:
   indentLevel: 1
   animator:
     animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
+    animatorVal: {fileID: 8763319736361427809}
   stateName:
     stringRef: {fileID: 0}
     stringVal: ToyStay
@@ -1810,7 +1810,7 @@ MonoBehaviour:
   indentLevel: 1
   animator:
     animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
+    animatorVal: {fileID: 8763319736547618842}
   stateName:
     stringRef: {fileID: 0}
     stringVal: HandStay
