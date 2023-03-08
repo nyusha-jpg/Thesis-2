@@ -11633,7 +11633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1180897224}
+  selectedFlowchart: {fileID: 1290255172}
 --- !u!4 &1298698637
 Transform:
   m_ObjectHideFlags: 1
@@ -16409,6 +16409,63 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
+--- !u!114 &1386689533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386688934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 530
+  indentLevel: 0
+  storyText: 'And I had just met Tiger a couple of times. '
+  description: 
+  character: {fileID: 1807560723}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 99061aa04e0ae8b4db8d66f607607e51, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 0
+  stopVoiceover: 0
+  waitForVO: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1386689534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386688934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 531
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1807560723}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 837dc65db2a9d8e4daf507cda5b9178c, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &1387645298
 GameObject:
   m_ObjectHideFlags: 0
@@ -23620,13 +23677,18 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 1807560723}
+    - target: {fileID: 941298402398274771, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
+      propertyPath: storyText
+      value: 'Bear had known Tiger for a little while. I would say almost a year
+        or so. '
+      objectReference: {fileID: 0}
     - target: {fileID: 941298402398274772, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
       propertyPath: nodeRect.width
-      value: 67.48635
+      value: 66.12672
       objectReference: {fileID: 0}
     - target: {fileID: 941298402398274772, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
       propertyPath: commandList.Array.size
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 941298402398274772, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
       propertyPath: commandList.Array.data[2]
@@ -23647,13 +23709,21 @@ PrefabInstance:
     - target: {fileID: 941298402398274772, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 1386689466}
+      objectReference: {fileID: 1386689534}
     - target: {fileID: 941298402398274772, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
       propertyPath: commandList.Array.data[7]
       value: 
-      objectReference: {fileID: 1386689465}
+      objectReference: {fileID: 1386689533}
     - target: {fileID: 941298402398274772, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
       propertyPath: commandList.Array.data[8]
+      value: 
+      objectReference: {fileID: 1386689466}
+    - target: {fileID: 941298402398274772, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
+      propertyPath: commandList.Array.data[9]
+      value: 
+      objectReference: {fileID: 1386689465}
+    - target: {fileID: 941298402398274772, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
+      propertyPath: commandList.Array.data[10]
       value: 
       objectReference: {fileID: 1386689413}
     - target: {fileID: 941298402398274773, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
@@ -26567,6 +26637,10 @@ PrefabInstance:
       propertyPath: nodeRect.y
       value: 160.9436
       objectReference: {fileID: 0}
+    - target: {fileID: 4488100404455254840, guid: 65909ad0d3a494e4fbd95e04941633b1, type: 3}
+      propertyPath: voiceOverClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 60cbf0b810ea4c6459391729bb671b8d, type: 3}
     - target: {fileID: 4488100404455254844, guid: 65909ad0d3a494e4fbd95e04941633b1, type: 3}
       propertyPath: character
       value: 
