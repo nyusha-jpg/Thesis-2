@@ -697,7 +697,6 @@ GameObject:
   - component: {fileID: 201522898}
   - component: {fileID: 201522900}
   - component: {fileID: 201522899}
-  - component: {fileID: 201522901}
   m_Layer: 0
   m_Name: Axe
   m_TagString: Untagged
@@ -792,21 +791,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &201522901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201522897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 2800000, guid: 0dd62ac5dcddb458fa120f81bb907eca, type: 3}
-  useEventSystem: 0
 --- !u!1 &226216160
 GameObject:
   m_ObjectHideFlags: 0
@@ -1629,7 +1613,6 @@ GameObject:
   m_Component:
   - component: {fileID: 275167925}
   - component: {fileID: 275167926}
-  - component: {fileID: 275167927}
   m_Layer: 0
   m_Name: MouthL1
   m_TagString: Untagged
@@ -1704,21 +1687,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &275167927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 275167924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 2800000, guid: 0dd62ac5dcddb458fa120f81bb907eca, type: 3}
-  useEventSystem: 0
 --- !u!1 &307174916
 GameObject:
   m_ObjectHideFlags: 0
@@ -5679,7 +5647,6 @@ GameObject:
   m_Component:
   - component: {fileID: 597532077}
   - component: {fileID: 597532078}
-  - component: {fileID: 597532079}
   m_Layer: 0
   m_Name: MouthL3
   m_TagString: Untagged
@@ -5754,21 +5721,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &597532079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 597532076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 2800000, guid: 0dd62ac5dcddb458fa120f81bb907eca, type: 3}
-  useEventSystem: 0
 --- !u!1 &629838483
 GameObject:
   m_ObjectHideFlags: 0
@@ -7425,7 +7377,6 @@ GameObject:
   - component: {fileID: 811047031}
   - component: {fileID: 811047032}
   - component: {fileID: 811047033}
-  - component: {fileID: 811047034}
   m_Layer: 0
   m_Name: Knob
   m_TagString: Untagged
@@ -7529,21 +7480,6 @@ CircleCollider2D:
   m_Offset: {x: 0.0000076293945, y: -0.000015258789}
   serializedVersion: 2
   m_Radius: 3.06
---- !u!114 &811047034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811047029}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 2800000, guid: 0dd62ac5dcddb458fa120f81bb907eca, type: 3}
-  useEventSystem: 0
 --- !u!1 &848478256
 GameObject:
   m_ObjectHideFlags: 0
@@ -7899,7 +7835,6 @@ GameObject:
   m_Component:
   - component: {fileID: 889142252}
   - component: {fileID: 889142253}
-  - component: {fileID: 889142254}
   m_Layer: 0
   m_Name: MouthR2
   m_TagString: Untagged
@@ -7974,21 +7909,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &889142254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889142251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 2800000, guid: 0dd62ac5dcddb458fa120f81bb907eca, type: 3}
-  useEventSystem: 0
 --- !u!1 &916940479
 GameObject:
   m_ObjectHideFlags: 0
@@ -16764,7 +16684,6 @@ GameObject:
   - component: {fileID: 1301502671}
   - component: {fileID: 1301502673}
   - component: {fileID: 1301502672}
-  - component: {fileID: 1301502674}
   m_Layer: 0
   m_Name: Bomb
   m_TagString: Untagged
@@ -16859,21 +16778,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1301502674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1301502670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 2800000, guid: 0dd62ac5dcddb458fa120f81bb907eca, type: 3}
-  useEventSystem: 0
 --- !u!1 &1310599543
 GameObject:
   m_ObjectHideFlags: 0
@@ -17920,7 +17824,6 @@ GameObject:
   - component: {fileID: 1379654629}
   - component: {fileID: 1379654630}
   - component: {fileID: 1379654631}
-  - component: {fileID: 1379654632}
   m_Layer: 0
   m_Name: SkyCircle
   m_TagString: Untagged
@@ -18007,21 +17910,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d399b9bdc3e130447b9c57ad766bd681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1379654632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1379654628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 2800000, guid: 0dd62ac5dcddb458fa120f81bb907eca, type: 3}
-  useEventSystem: 0
 --- !u!1 &1409602313
 GameObject:
   m_ObjectHideFlags: 0
@@ -19114,7 +19002,6 @@ GameObject:
   - component: {fileID: 1543383350}
   - component: {fileID: 1543383352}
   - component: {fileID: 1543383351}
-  - component: {fileID: 1543383353}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Untagged
@@ -19209,21 +19096,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1543383353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1543383349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 2800000, guid: 0dd62ac5dcddb458fa120f81bb907eca, type: 3}
-  useEventSystem: 0
 --- !u!1 &1547567973
 GameObject:
   m_ObjectHideFlags: 0
@@ -19845,7 +19717,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1561064094}
   - component: {fileID: 1561064095}
-  - component: {fileID: 1561064096}
   m_Layer: 0
   m_Name: MouthL2
   m_TagString: Untagged
@@ -19920,21 +19791,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1561064096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1561064093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 2800000, guid: 0dd62ac5dcddb458fa120f81bb907eca, type: 3}
-  useEventSystem: 0
 --- !u!1 &1561552988
 GameObject:
   m_ObjectHideFlags: 0
@@ -21153,7 +21009,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1695716142}
   - component: {fileID: 1695716143}
-  - component: {fileID: 1695716144}
   m_Layer: 0
   m_Name: MouthR1
   m_TagString: Untagged
@@ -21228,21 +21083,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1695716144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1695716141}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 2800000, guid: 0dd62ac5dcddb458fa120f81bb907eca, type: 3}
-  useEventSystem: 0
 --- !u!1 &1704083126
 GameObject:
   m_ObjectHideFlags: 0
@@ -22199,7 +22039,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1790090066}
   - component: {fileID: 1790090067}
-  - component: {fileID: 1790090068}
   m_Layer: 0
   m_Name: MouthR3
   m_TagString: Untagged
@@ -22274,21 +22113,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1790090068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790090065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 2800000, guid: 0dd62ac5dcddb458fa120f81bb907eca, type: 3}
-  useEventSystem: 0
 --- !u!1 &1800048149
 GameObject:
   m_ObjectHideFlags: 0
@@ -23097,7 +22921,6 @@ GameObject:
   - component: {fileID: 1905457749}
   - component: {fileID: 1905457751}
   - component: {fileID: 1905457750}
-  - component: {fileID: 1905457752}
   m_Layer: 0
   m_Name: Hammer
   m_TagString: Untagged
@@ -23192,21 +23015,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1905457752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1905457748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 2800000, guid: 0dd62ac5dcddb458fa120f81bb907eca, type: 3}
-  useEventSystem: 0
 --- !u!1 &1919208743
 GameObject:
   m_ObjectHideFlags: 0
@@ -23218,7 +23026,6 @@ GameObject:
   - component: {fileID: 1919208744}
   - component: {fileID: 1919208745}
   - component: {fileID: 1919208746}
-  - component: {fileID: 1919208747}
   m_Layer: 0
   m_Name: Toy
   m_TagString: Untagged
@@ -23313,21 +23120,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1919208747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919208743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 2800000, guid: 0dd62ac5dcddb458fa120f81bb907eca, type: 3}
-  useEventSystem: 0
 --- !u!1 &1921428767
 GameObject:
   m_ObjectHideFlags: 0
@@ -24853,7 +24645,6 @@ GameObject:
   - component: {fileID: 2116112054}
   - component: {fileID: 2116112056}
   - component: {fileID: 2116112055}
-  - component: {fileID: 2116112057}
   m_Layer: 0
   m_Name: Knife
   m_TagString: Untagged
@@ -24948,21 +24739,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2116112057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2116112053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 2800000, guid: 0dd62ac5dcddb458fa120f81bb907eca, type: 3}
-  useEventSystem: 0
 --- !u!1 &2133763595
 GameObject:
   m_ObjectHideFlags: 0
