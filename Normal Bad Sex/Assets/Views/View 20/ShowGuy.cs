@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Fungus;
 
 public class ShowGuy : MonoBehaviour
 {
+    public Flowchart flowchart;
 
     public GameObject calling;
     public GameObject guy;
@@ -23,5 +25,6 @@ public class ShowGuy : MonoBehaviour
     {
         calling.SetActive(false);
         guy.SetActive(true);
+        flowchart.SetBooleanVariable("showGuy", true);
     }
 }
