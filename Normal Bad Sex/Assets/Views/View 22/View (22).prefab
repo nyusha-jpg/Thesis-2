@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7531140467691420251}
   - component: {fileID: 7531140467691420590}
   - component: {fileID: 7531140467691420564}
-  - component: {fileID: 7531140467691420571}
   - component: {fileID: 7531140467691420570}
   - component: {fileID: 7531140467691420546}
   - component: {fileID: 7531140467691420545}
@@ -27,6 +26,7 @@ GameObject:
   - component: {fileID: 7531140467691420269}
   - component: {fileID: 7531140467691420268}
   - component: {fileID: 7531140467691420591}
+  - component: {fileID: 1644833067}
   m_Layer: 0
   m_Name: Flowchart 22
   m_TagString: Untagged
@@ -75,8 +75,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 7531140467691420564}
-  selectedCommands:
-  - {fileID: 7531140467691420571}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -102,8 +101,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 369.7342
-    y: 68.53165
+    x: 371
+    y: 69.79747
     width: 94.72572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -113,7 +112,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 7531140467691420571}
+  - {fileID: 0}
+  - {fileID: 1644833067}
   - {fileID: 7531140467691420549}
   - {fileID: 7531140467691420570}
   - {fileID: 7531140467691420268}
@@ -130,27 +130,6 @@ MonoBehaviour:
   - {fileID: 7531140467691420550}
   - {fileID: 7531140467691420591}
   suppressAllAutoSelections: 0
---- !u!114 &7531140467691420571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7531140467691420250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 10
-  indentLevel: 0
-  duration: 1
-  targetView: {fileID: 7531140467803205655}
-  waitUntilFinished: 1
-  targetCamera: {fileID: 0}
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
 --- !u!114 &7531140467691420570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -575,6 +554,31 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &1644833067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7531140467691420250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 183
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 7531140467803205655}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+  fadeTweenType: 4
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
 --- !u!1 &7531140467803205653
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,7 +603,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7531140467803205653}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 914.6986, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1

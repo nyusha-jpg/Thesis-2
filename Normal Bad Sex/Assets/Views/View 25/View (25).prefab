@@ -99,8 +99,8 @@ GameObject:
   - component: {fileID: 7709527742494301752}
   - component: {fileID: 7709527742494301732}
   - component: {fileID: 7709527742494301733}
-  - component: {fileID: 7709527742494301736}
   - component: {fileID: 7709527742494301797}
+  - component: {fileID: 1354858208}
   m_Layer: 0
   m_Name: Flowchart 25
   m_TagString: Untagged
@@ -149,8 +149,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 7709527742494301758}
-  selectedCommands:
-  - {fileID: 7709527742494301736}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -176,8 +175,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 252.0003
-    y: -83.99992
+    x: 257.71457
+    y: -85.4285
     width: 93.80951
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -187,7 +186,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 7709527742494301736}
+  - {fileID: 0}
+  - {fileID: 1354858208}
   - {fileID: 7709527742494301733}
   - {fileID: 7709527742494301755}
   - {fileID: 7709527742494301732}
@@ -310,27 +310,6 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &7709527742494301736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7709527742494301718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 74
-  indentLevel: 0
-  duration: 1
-  targetView: {fileID: 7709527742499204213}
-  waitUntilFinished: 1
-  targetCamera: {fileID: 0}
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
 --- !u!114 &7709527742494301797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -352,6 +331,31 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &1354858208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709527742494301718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 183
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 7709527742499204213}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+  fadeTweenType: 4
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
 --- !u!1 &7709527742499204211
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,7 +380,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7709527742499204211}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1045.1609, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1

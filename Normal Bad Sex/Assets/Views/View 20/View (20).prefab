@@ -160,10 +160,10 @@ GameObject:
   - component: {fileID: 8100224880928970613}
   - component: {fileID: 8100224880928970689}
   - component: {fileID: 8100224880928970663}
-  - component: {fileID: 8100224880928970661}
   - component: {fileID: 8100224880928970658}
   - component: {fileID: 8100224880928970659}
   - component: {fileID: 8100224880928970612}
+  - component: {fileID: 1180897230}
   m_Layer: 0
   m_Name: Flowchart 20
   m_TagString: Untagged
@@ -212,7 +212,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 8100224880928970663}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 8100224880928970658}
   variables: []
   description: 
   stepPause: 0
@@ -249,32 +250,11 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 8100224880928970661}
+  - {fileID: 1180897230}
   - {fileID: 8100224880928970658}
   - {fileID: 8100224880928970659}
   - {fileID: 8100224880928970612}
   suppressAllAutoSelections: 0
---- !u!114 &8100224880928970661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8100224880928970610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 32
-  indentLevel: 0
-  duration: 1
-  targetView: {fileID: 8100224879870679429}
-  waitUntilFinished: 1
-  targetCamera: {fileID: 0}
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
 --- !u!114 &8100224880928970658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -293,14 +273,14 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 92581a508d601684a9abb8f50b34d839, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
+  waitForClick: 0
+  stopVoiceover: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &8100224880928970659
 MonoBehaviour:
@@ -321,14 +301,14 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: e72b338e42e2469479da9d3d8c38fda2, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
+  waitForClick: 0
+  stopVoiceover: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &8100224880928970612
 MonoBehaviour:
@@ -351,6 +331,31 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &1180897230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8100224880928970610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 191
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 8100224879870679429}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+  fadeTweenType: 4
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
 --- !u!1 &8100224881670660283
 GameObject:
   m_ObjectHideFlags: 0

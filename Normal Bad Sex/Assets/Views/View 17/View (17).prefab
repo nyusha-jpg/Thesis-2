@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 6890026728903738877}
   - component: {fileID: 6890026728903738876}
   - component: {fileID: 6890026728903738785}
-  - component: {fileID: 6890026728903738868}
+  - component: {fileID: 1035707374}
   m_Layer: 0
   m_Name: Flowchart 17
   m_TagString: Untagged
@@ -231,7 +231,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 6890026728903738875}
   selectedCommands:
-  - {fileID: 6890026728903738868}
+  - {fileID: 6890026728903738877}
   variables: []
   description: 
   stepPause: 0
@@ -258,7 +258,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 199.58618
-    y: 83.891014
+    y: 85.15684
     width: 93.88185
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -268,7 +268,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 6890026728903738868}
+  - {fileID: 1035707374}
   - {fileID: 6890026728903738876}
   - {fileID: 6890026728903738877}
   - {fileID: 6890026728903738785}
@@ -292,14 +292,14 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: b146c4a13584e0f49b5e7b2874dc6290, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 0
-  stopVoiceover: 1
-  waitForVO: 0
+  stopVoiceover: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6890026728903738876
 MonoBehaviour:
@@ -352,7 +352,7 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &6890026728903738868
+--- !u!114 &1035707374
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -361,15 +361,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 6890026728903738786}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 190
+  itemId: 191
   indentLevel: 0
   duration: 1
+  fadeOut: 1
   targetView: {fileID: 6890026730000955289}
   waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
   targetCamera: {fileID: 0}
+  fadeTweenType: 4
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
@@ -891,7 +895,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6890026730000955291}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 698.77045, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1

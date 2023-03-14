@@ -516,8 +516,8 @@ GameObject:
   - component: {fileID: 6649639961950160097}
   - component: {fileID: 6649639961950160098}
   - component: {fileID: 6649639961950160099}
-  - component: {fileID: 6649639961950159909}
   - component: {fileID: 6649639961950159910}
+  - component: {fileID: 2066113483}
   m_Layer: 0
   m_Name: Flowchart 26
   m_TagString: Untagged
@@ -564,8 +564,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 6649639961950160023}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -592,9 +591,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 216.54036
+    x: 217.91022
     y: 55.661285
-    width: 93.8356
+    width: 95.662094
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -603,7 +602,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 6649639961950159909}
+  - {fileID: 0}
+  - {fileID: 2066113483}
   - {fileID: 6649639961950160097}
   - {fileID: 6649639961950160107}
   - {fileID: 6649639961950160098}
@@ -787,27 +787,6 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &6649639961950159909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6649639961950159934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 83
-  indentLevel: 0
-  duration: 1
-  targetView: {fileID: 6649639960614964574}
-  waitUntilFinished: 1
-  targetCamera: {fileID: 0}
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
 --- !u!114 &6649639961950159910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -829,3 +808,28 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &2066113483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6649639961950159934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 183
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 6649639960614964574}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+  fadeTweenType: 4
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4

@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 429567457355035024}
   - component: {fileID: 429567457355035025}
   - component: {fileID: 429567457355035026}
-  - component: {fileID: 429567457355035027}
   - component: {fileID: 429567457355035032}
   - component: {fileID: 429567457355035033}
   - component: {fileID: 429567457355035034}
@@ -41,6 +40,9 @@ GameObject:
   - component: {fileID: 429567457355034750}
   - component: {fileID: 429567457355034751}
   - component: {fileID: 429567457355034744}
+  - component: {fileID: 305292335}
+  - component: {fileID: 305292365}
+  - component: {fileID: 305292366}
   m_Layer: 0
   m_Name: Flowchart 11
   m_TagString: Untagged
@@ -79,7 +81,7 @@ MonoBehaviour:
   scrollPos: {x: -253.3118, y: 147.01006}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 444.66666
+  blockViewHeight: 460.66666
   zoom: 0.64000046
   scrollViewRect:
     serializedVersion: 2
@@ -87,10 +89,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 429567457355035026}
-  selectedCommands:
-  - {fileID: 429567457355035027}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 429567457355035030}
   - {fileID: 429567457355035029}
@@ -197,8 +197,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 488.005
-    y: 115.96093
+    x: 489.5675
+    y: 114.39843
     width: 94.79163
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -208,7 +208,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 429567457355035027}
+  - {fileID: 305292335}
+  - {fileID: 305292365}
   - {fileID: 429567457355034737}
   - {fileID: 429567457355035017}
   - {fileID: 429567457355034738}
@@ -219,6 +220,7 @@ MonoBehaviour:
   - {fileID: 429567457355035019}
   - {fileID: 429567457355034749}
   - {fileID: 429567457355035018}
+  - {fileID: 305292366}
   - {fileID: 429567457355035034}
   - {fileID: 429567457355034750}
   - {fileID: 429567457355035035}
@@ -226,34 +228,13 @@ MonoBehaviour:
   - {fileID: 429567457355035012}
   - {fileID: 429567457355035013}
   - {fileID: 429567457355035020}
+  - {fileID: 429567457355035009}
   - {fileID: 429567457355034751}
   - {fileID: 429567457355035014}
-  - {fileID: 429567457355035009}
   - {fileID: 429567457355034744}
   - {fileID: 429567457355035010}
   - {fileID: 429567457355035021}
   suppressAllAutoSelections: 0
---- !u!114 &429567457355035027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 429567457355034705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 112
-  indentLevel: 0
-  duration: 1
-  targetView: {fileID: 0}
-  waitUntilFinished: 1
-  targetCamera: {fileID: 0}
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
 --- !u!114 &429567457355035032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,7 +305,7 @@ MonoBehaviour:
   indentLevel: 0
   animator:
     animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
+    animatorVal: {fileID: 429567458138116324}
   stateName:
     stringRef: {fileID: 0}
     stringVal: EyeClosing
@@ -378,7 +359,7 @@ MonoBehaviour:
   indentLevel: 0
   animator:
     animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
+    animatorVal: {fileID: 429567458138116324}
   stateName:
     stringRef: {fileID: 0}
     stringVal: EyeOpening
@@ -404,7 +385,7 @@ MonoBehaviour:
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
+    gameObjectVal: {fileID: 429567457981701127}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -453,7 +434,7 @@ MonoBehaviour:
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
+    gameObjectVal: {fileID: 429567458942610364}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -474,7 +455,7 @@ MonoBehaviour:
   indentLevel: 0
   animator:
     animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
+    animatorVal: {fileID: 429567458844121852}
   stateName:
     stringRef: {fileID: 0}
     stringVal: TurnRed
@@ -888,6 +869,78 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &305292335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429567457355034705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 187
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 429567458704072655}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+  fadeTweenType: 4
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
+--- !u!114 &305292365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429567457355034705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5316d953c7abe498799575550c973535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 188
+  indentLevel: 0
+  animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 429567458942610359}
+  stateName:
+    stringRef: {fileID: 0}
+    stringVal: Sway
+  layer:
+    integerRef: {fileID: 0}
+    integerVal: -1
+  time:
+    floatRef: {fileID: 0}
+    floatVal: 0
+--- !u!114 &305292366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429567457355034705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d81be3d7e84da460788dccea95a3313a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 189
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  destroyInXSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!1 &429567457576338734
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,7 +953,7 @@ GameObject:
   - component: {fileID: 429567457576338723}
   - component: {fileID: 429567457576338732}
   m_Layer: 0
-  m_Name: Center Collider
+  m_Name: CenterCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1112,7 +1165,7 @@ GameObject:
   - component: {fileID: 429567458138116324}
   - component: {fileID: 429567458138116325}
   m_Layer: 0
-  m_Name: Blink
+  m_Name: Blinky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1244,7 +1297,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429567458704072649}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 435.45947, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
@@ -1286,7 +1339,7 @@ GameObject:
   - component: {fileID: 429567458844121843}
   - component: {fileID: 429567458844121852}
   m_Layer: 0
-  m_Name: Red
+  m_Name: Reddd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1394,7 +1447,7 @@ GameObject:
   - component: {fileID: 429567458942610353}
   - component: {fileID: 429567458942610354}
   m_Layer: 0
-  m_Name: Blowjob
+  m_Name: Blowjobbbb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1499,11 +1552,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7649c44adb7932c488d73cf3b9e60d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eye: {fileID: 0}
-  eyeAnim: {fileID: 0}
-  blowjob: {fileID: 0}
-  blowjobAnim: {fileID: 0}
+  eye: {fileID: 429567458138116327}
+  eyeAnim: {fileID: 429567458138116324}
+  blowjob: {fileID: 429567458942610364}
+  blowjobAnim: {fileID: 429567458942610359}
   isCurrentlyColliding: 0
+  bjSeen: 0
 --- !u!111 &429567458942610353
 Animation:
   m_ObjectHideFlags: 0

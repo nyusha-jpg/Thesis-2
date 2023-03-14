@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using Debug = UnityEngine.Debug;
 
 public class ShowReview : MonoBehaviour
 {
+    public GameObject emptyReview;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +21,8 @@ public class ShowReview : MonoBehaviour
 
     public void OnMouseDown()
     {
-        Destroy(this);
+        Debug.Log("clicked");
+        Destroy(emptyReview);
+      
     }
 }

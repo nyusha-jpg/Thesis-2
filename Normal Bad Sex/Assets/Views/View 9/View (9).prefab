@@ -178,6 +178,7 @@ GameObject:
   - component: {fileID: 1171017693770590129}
   - component: {fileID: 1171017693770590131}
   - component: {fileID: 1171017693770590130}
+  - component: {fileID: 1168206841}
   m_Layer: 0
   m_Name: SkyCircle
   m_TagString: Untagged
@@ -264,6 +265,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d399b9bdc3e130447b9c57ad766bd681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1168206841
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171017693770590128}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 8.09034
 --- !u!1 &1171017693911745341
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,7 +297,6 @@ GameObject:
   - component: {fileID: 1171017693911745373}
   - component: {fileID: 1171017693911745372}
   - component: {fileID: 1171017693911745401}
-  - component: {fileID: 1171017693911745400}
   - component: {fileID: 1171017693911745395}
   - component: {fileID: 1171017693911745397}
   - component: {fileID: 1171017693911745309}
@@ -289,6 +305,7 @@ GameObject:
   - component: {fileID: 1171017693911745286}
   - component: {fileID: 1171017693911745285}
   - component: {fileID: 1171017693911745284}
+  - component: {fileID: 1653753229}
   m_Layer: 0
   m_Name: Flowchart 9
   m_TagString: Untagged
@@ -338,7 +355,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1171017693911745401}
   selectedCommands:
-  - {fileID: 1171017693911745400}
+  - {fileID: 1171017693911745285}
   variables:
   - {fileID: 1171017693911745375}
   - {fileID: 1171017693911745368}
@@ -456,7 +473,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1171017693911745400}
+  - {fileID: 1653753229}
   - {fileID: 1171017693911745286}
   - {fileID: 1171017693911745287}
   - {fileID: 1171017693911745285}
@@ -464,28 +481,8 @@ MonoBehaviour:
   - {fileID: 1171017693911745284}
   - {fileID: 1171017693911745308}
   - {fileID: 1171017693911745395}
+  - {fileID: 0}
   suppressAllAutoSelections: 0
---- !u!114 &1171017693911745400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1171017693911745341}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 130
-  indentLevel: 0
-  duration: 1
-  targetView: {fileID: 1171017694321974353}
-  waitUntilFinished: 1
-  targetCamera: {fileID: 0}
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
 --- !u!114 &1171017693911745395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -694,6 +691,31 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &1653753229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171017693911745341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 210
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 1171017694321974353}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+  fadeTweenType: 4
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
 --- !u!1 &1171017694321974359
 GameObject:
   m_ObjectHideFlags: 0
@@ -718,7 +740,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171017694321974359}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 348.33066, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
