@@ -335,7 +335,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 0}
   - {fileID: 771683336}
   - {fileID: 7924299699899015165}
   - {fileID: 7924299699899015147}
@@ -361,8 +360,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 53
   indentLevel: 0
-  storyText: ' where I say like, Cat ended up throwing a mega awesome birthday party
-    for their next birthday.'
+  storyText: where I say like, Cat ended up throwing a mega awesome birthday party
+    for their next birthday.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

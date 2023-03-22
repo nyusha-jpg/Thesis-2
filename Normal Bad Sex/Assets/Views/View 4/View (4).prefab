@@ -637,14 +637,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4488100404455254847}
   - component: {fileID: 4488100404455254659}
-  - component: {fileID: 4488100404455254781}
-  - component: {fileID: 4488100404455254761}
   - component: {fileID: 4488100404455254753}
-  - component: {fileID: 4488100404455254755}
-  - component: {fileID: 4488100404455254746}
-  - component: {fileID: 4488100404455254747}
   - component: {fileID: 4488100404455254740}
-  - component: {fileID: 4488100404455254741}
   - component: {fileID: 4488100404455254840}
   - component: {fileID: 4488100404455254841}
   - component: {fileID: 4488100404455254844}
@@ -688,7 +682,7 @@ MonoBehaviour:
   scrollPos: {x: -304.36673, y: 61.608185}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 407
+  blockViewHeight: 453.66666
   zoom: 0.9100001
   scrollViewRect:
     serializedVersion: 2
@@ -696,16 +690,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 4488100404455254753}
-  selectedCommands: []
-  variables:
-  - {fileID: 4488100404455254761}
-  - {fileID: 4488100404455254781}
-  - {fileID: 4488100404455254755}
-  - {fileID: 4488100404455254746}
-  - {fileID: 4488100404455254747}
-  - {fileID: 4488100404455254741}
+  selectedBlocks: []
+  selectedCommands:
+  - {fileID: 4488100404455254840}
+  variables: []
   description: 
   stepPause: 0
   colorCommands: 1
@@ -716,36 +704,6 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
---- !u!114 &4488100404455254781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4488100404455254832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 0
-  key: bearClick
-  value: 0
---- !u!114 &4488100404455254761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4488100404455254832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 0
-  key: tigerClick
-  value: 0
 --- !u!114 &4488100404455254753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -778,51 +736,6 @@ MonoBehaviour:
   - {fileID: 4488100404455254841}
   - {fileID: 4488100404455254740}
   suppressAllAutoSelections: 0
---- !u!114 &4488100404455254755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4488100404455254832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 0
-  key: boxOpen
-  value: 0
---- !u!114 &4488100404455254746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4488100404455254832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 0
-  key: item1off
-  value: 0
---- !u!114 &4488100404455254747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4488100404455254832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 0
-  key: item2off
-  value: 0
 --- !u!114 &4488100404455254740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -844,21 +757,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &4488100404455254741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4488100404455254832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 0
-  key: rotationCount
-  value: 0
 --- !u!114 &4488100404455254840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -877,7 +775,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 60cbf0b810ea4c6459391729bb671b8d, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 99061aa04e0ae8b4db8d66f607607e51, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0

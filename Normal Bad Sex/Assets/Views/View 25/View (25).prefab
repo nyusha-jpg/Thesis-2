@@ -175,8 +175,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 257.71457
-    y: -85.4285
+    x: 184.85739
+    y: -28.285652
     width: 93.80951
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -186,7 +186,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 0}
   - {fileID: 1354858208}
   - {fileID: 7709527742494301733}
   - {fileID: 7709527742494301755}

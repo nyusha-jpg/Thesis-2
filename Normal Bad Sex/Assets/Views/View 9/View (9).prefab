@@ -355,7 +355,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1171017693911745401}
   selectedCommands:
-  - {fileID: 1171017693911745285}
+  - {fileID: 1171017693911745286}
   variables:
   - {fileID: 1171017693911745375}
   - {fileID: 1171017693911745368}
@@ -481,7 +481,6 @@ MonoBehaviour:
   - {fileID: 1171017693911745284}
   - {fileID: 1171017693911745308}
   - {fileID: 1171017693911745395}
-  - {fileID: 0}
   suppressAllAutoSelections: 0
 --- !u!114 &1171017693911745395
 MonoBehaviour:

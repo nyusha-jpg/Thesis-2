@@ -518,6 +518,7 @@ GameObject:
   - component: {fileID: 6649639961950160099}
   - component: {fileID: 6649639961950159910}
   - component: {fileID: 2066113483}
+  - component: {fileID: 9167115470304249616}
   m_Layer: 0
   m_Name: Flowchart 26
   m_TagString: Untagged
@@ -556,7 +557,7 @@ MonoBehaviour:
   scrollPos: {x: 1.752563, y: 302.83554}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
+  blockViewHeight: 417.66666
   zoom: 0.7300002
   scrollViewRect:
     serializedVersion: 2
@@ -564,7 +565,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 6649639961950160023}
   selectedCommands: []
   variables: []
   description: 
@@ -592,7 +594,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 217.91022
-    y: 55.661285
+    y: 57.031147
     width: 95.662094
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -602,8 +604,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 0}
   - {fileID: 2066113483}
+  - {fileID: 9167115470304249616}
   - {fileID: 6649639961950160097}
   - {fileID: 6649639961950160107}
   - {fileID: 6649639961950160098}
@@ -715,7 +717,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: b537ed90c96af194bab9649629aca9fc, type: 3}
+  portrait: {fileID: 21300000, guid: 51925319774d7634fba8928b80ade4d2, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -745,7 +747,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: a0d19cce39c0662448ad1a19b33e7369, type: 3}
+  portrait: {fileID: 21300000, guid: 6ed0b40ef063f6640aff94eb8a1927d6, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -833,3 +835,33 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
+--- !u!114 &9167115470304249616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6649639961950159934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 184
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 0}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 837dc65db2a9d8e4daf507cda5b9178c, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0

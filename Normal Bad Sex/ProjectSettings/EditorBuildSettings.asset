@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Cenza.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/TitleCard.unity
     guid: 6b32a68e6a45a7347a477d049ddec980
+  - enabled: 0
+    path: Assets/Scenes/Cenza.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Cenza Original.unity
     guid: a48af663ece6acd4b803479e53745df4

@@ -112,7 +112,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 0}
   - {fileID: 1644833067}
   - {fileID: 7531140467691420549}
   - {fileID: 7531140467691420570}
