@@ -462,6 +462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BurritoLight (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8974735668582468697, guid: 1e3f52dc14328b845babf1b98c82007f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 365e9d7cb1a2523439523d5d14d70c93, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e3f52dc14328b845babf1b98c82007f, type: 3}
 --- !u!4 &2221234817941478373 stripped
@@ -524,6 +528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BurritoLight (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8974735668582468697, guid: 1e3f52dc14328b845babf1b98c82007f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 365e9d7cb1a2523439523d5d14d70c93, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e3f52dc14328b845babf1b98c82007f, type: 3}
 --- !u!4 &2202088687943641097 stripped
@@ -586,6 +594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BurritoLight
       objectReference: {fileID: 0}
+    - target: {fileID: 8974735668582468697, guid: 1e3f52dc14328b845babf1b98c82007f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 365e9d7cb1a2523439523d5d14d70c93, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e3f52dc14328b845babf1b98c82007f, type: 3}
 --- !u!4 &6274993910081101166 stripped
