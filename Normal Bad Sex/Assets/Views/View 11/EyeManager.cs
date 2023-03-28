@@ -27,13 +27,15 @@ public class EyeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("BJ Collision: " + isCurrentlyColliding);
+
         if (Input.GetMouseButtonDown(0) && (isCurrentlyColliding = true) && bjSeen == false)
         {
             //Debug.Log("spacebar and collider");
             bjSeen = true;
             blowjobAnim.enabled = false;
             eyeAnim.Play("EyeOpening");
-            Debug.Log("BJ Collision: " + isCurrentlyColliding);
+           
 
         }
     }
