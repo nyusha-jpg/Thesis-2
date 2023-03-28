@@ -6,6 +6,9 @@ using Debug = UnityEngine.Debug;
 
 public class DisplayNextMouth : MonoBehaviour
 {
+    /*
+     * 
+     * 
     public GameObject[] leftSmile;
     public int leftClicks = 0;
     public bool leftFull;
@@ -46,9 +49,16 @@ public class DisplayNextMouth : MonoBehaviour
 
                         if (Input.GetMouseButtonDown(0) && (col.gameObject.tag == "RightMouth" && rightFull == false))
                         {
-                            Debug.Log("Right smile clicked");
+                                if (rightClicks < 3)
+                            {
+                                rightSmile[rightClicks].SetActive(false);
+                                rightClicks++;
+                                Debug.Log("Right clicks: " + rightClicks);
+                                rightSmile[rightClicks].SetActive(true);
 
-                        }
+                            }
+
+                    }
                     }
                 
             }
@@ -56,6 +66,9 @@ public class DisplayNextMouth : MonoBehaviour
         }
 
     }
+    *
+    *
+    */
 
 }
     
