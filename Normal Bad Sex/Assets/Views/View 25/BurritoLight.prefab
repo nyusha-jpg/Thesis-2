@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8974735668582468697}
   - component: {fileID: 1174896471811799123}
   - component: {fileID: 5588495916099121570}
+  - component: {fileID: 562779533413562476}
   m_Layer: 0
   m_Name: BurritoLight
   m_TagString: Untagged
@@ -119,3 +120,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1269531, y: 2.137743, z: 0.2}
   m_Center: {x: -1.3902588, y: 3.4221258, z: 0}
+--- !u!114 &562779533413562476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8655371092852942840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc3f6d8b852ab3d4ba73669ce8393062, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class light : MonoBehaviour
-{ private Animation anim;
+{ private Animator anim;
     // Start is called before the first frame update
     void Start()
     {
-        anim = gameObject.GetComponent<Animation>();
+        anim = gameObject.GetComponent<Animator>();
 
     }
 
