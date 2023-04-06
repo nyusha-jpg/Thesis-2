@@ -14,6 +14,7 @@ public class ShipManager : MonoBehaviour
     //public GameObject lionShip;
     public GameObject speechLion;
     public GameObject speechTiger;
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -51,9 +52,12 @@ public class ShipManager : MonoBehaviour
     }
 
     public void OnCollisionEnter2D(Collision2D col)
-    {
-        speechLion.SetActive(true);
-        speechTiger.SetActive(true);
+    { if (col.gameObject.name == "Boat Tiger")
+        {
+            speechLion.SetActive(true);
+            speechTiger.SetActive(true);
+            anim.Play("eomg anim");
+        }
     }
 
     public void OnCollisionExit2D(Collision2D coll)
