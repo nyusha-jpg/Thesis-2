@@ -8,7 +8,7 @@ using Fungus;
 public class ShowerManager : MonoBehaviour
 {
     public Flowchart flowchart;
-
+    public Animator anim;
     private int clothingCount;
     public int ClothingCount
     {
@@ -25,6 +25,7 @@ public class ShowerManager : MonoBehaviour
                 allClothesOff = true;
                 Debug.Log("All clothes off");
                 flowchart.SetBooleanVariable("allClothesOff", true);
+                anim.Play("eomg anim");
 
             }
         }

@@ -776,6 +776,8 @@ GameObject:
   - component: {fileID: 1547301144}
   - component: {fileID: 4201208782761471627}
   - component: {fileID: 3846356224163616893}
+  - component: {fileID: 1901938808}
+  - component: {fileID: 1901938809}
   m_Layer: 0
   m_Name: Flowchart 4
   m_TagString: Untagged
@@ -822,8 +824,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 4488100404455254753}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -866,6 +867,7 @@ MonoBehaviour:
   - {fileID: 4488100404455254840}
   - {fileID: 4488100404455254845}
   - {fileID: 4488100404455254841}
+  - {fileID: 1901938808}
   suppressAllAutoSelections: 0
 --- !u!114 &4488100404455254840
 MonoBehaviour:
@@ -1030,7 +1032,7 @@ MonoBehaviour:
   itemId: 189
   blockName: Continue
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1901938809}
   commandList:
   - {fileID: 3846356224163616893}
   suppressAllAutoSelections: 0
@@ -1055,6 +1057,46 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &1901938808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4488100404455254832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 191
+  indentLevel: 0
+  spriteRenderer: {fileID: 7972218749872273453}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  waitUntilFinished: 1
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1901938809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4488100404455254832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 4201208782761471627}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 7990404143589827255}
+  waitFrames: 1
 --- !u!1 &4488100404586145618
 GameObject:
   m_ObjectHideFlags: 0
