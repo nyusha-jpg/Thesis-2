@@ -13,9 +13,11 @@ public class Unboxing : MonoBehaviour
     public GameObject[] unboxPics;
     public int unboxClicks;
     public bool boxOpen;
+    public Animator anim;
 
     void Start()
     {
+        
         unboxClicks = 0;
         boxOpen = false;
 
@@ -45,14 +47,18 @@ public class Unboxing : MonoBehaviour
                             unboxClicks++;
                             unboxPics[unboxClicks].SetActive(true);
                             Debug.Log("Unbox Clicks: " + unboxClicks);
+                            
                         }
 
                         if (unboxClicks == unboxPics.Length-1)
                         {
+                            anim.Play("eomg anim");
                             //Debug.Log("box open");
                             boxOpen = true;
                             //flowchart.SetBooleanVariable(boxOpen) = true;
                             flowchart.SetBooleanVariable("boxOpen", true);
+                            
+
                         }
                     }
                 }
