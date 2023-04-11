@@ -1997,7 +1997,6 @@ GameObject:
   - component: {fileID: 1142892291}
   - component: {fileID: 1142892292}
   - component: {fileID: 1142892293}
-  - component: {fileID: 1142892294}
   - component: {fileID: 1142892295}
   - component: {fileID: 1142892296}
   - component: {fileID: 434575471}
@@ -2010,6 +2009,9 @@ GameObject:
   - component: {fileID: 434575476}
   - component: {fileID: 434575477}
   - component: {fileID: 434575478}
+  - component: {fileID: 434575480}
+  - component: {fileID: 434575486}
+  - component: {fileID: 434575487}
   m_Layer: 0
   m_Name: Flowchart 5
   m_TagString: Untagged
@@ -2056,7 +2058,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1142892291}
   selectedCommands: []
   variables:
   - {fileID: 846211357137070833}
@@ -2375,7 +2378,7 @@ MonoBehaviour:
   - {fileID: 434575474}
   - {fileID: 434575473}
   - {fileID: 434575472}
-  - {fileID: 1142892294}
+  - {fileID: 434575480}
   suppressAllAutoSelections: 0
 --- !u!114 &1142892292
 MonoBehaviour:
@@ -2724,27 +2727,6 @@ MonoBehaviour:
   parentBlock: {fileID: 1142892291}
   suppressBlockAutoSelect: 0
   FireOn: 1
---- !u!114 &1142892294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846211357137069392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 193
-  indentLevel: 1
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
 --- !u!114 &1142892295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3131,8 +3113,9 @@ MonoBehaviour:
   itemId: 198
   blockName: Continue
   description: 
-  eventHandler: {fileID: 0}
-  commandList: []
+  eventHandler: {fileID: 434575487}
+  commandList:
+  - {fileID: 434575486}
   suppressAllAutoSelections: 0
 --- !u!114 &434575473
 MonoBehaviour:
@@ -3260,6 +3243,67 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &434575480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846211357137069392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 206
+  indentLevel: 1
+  spriteRenderer: {fileID: 60651253406485932}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  waitUntilFinished: 1
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &434575486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846211357137069392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 205
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 0}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &434575487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846211357137069392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 2656356911921226285}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 7512800360204236563}
+  waitFrames: 1
 --- !u!1 &846211357148678687
 GameObject:
   m_ObjectHideFlags: 0
@@ -3519,7 +3563,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4433709928809772188}
   m_LocalRotation: {x: -0, y: -0, z: 0.3846964, w: 0.9230432}
-  m_LocalPosition: {x: -15.39, y: 5.39, z: -6.8441086}
+  m_LocalPosition: {x: -14.44, y: 6.35, z: -6.8441086}
   m_LocalScale: {x: 0.7999999, y: 0.7999999, z: 0.79999995}
   m_ConstrainProportionsScale: 1
   m_Children: []
