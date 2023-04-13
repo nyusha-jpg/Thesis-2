@@ -5,27 +5,32 @@ using UnityEngine;
 
 public class EOGControl : MonoBehaviour
 {
-    public GameObject kiss1;
-    public GameObject kiss2;
-    public GameObject kiss3;
-    public GameObject kiss4;
-    public GameObject kiss5;
-    public GameObject kiss6;
-    public GameObject kiss7;
-    public GameObject kiss8;
-    public GameObject kiss9;
-    public GameObject kiss10;
-    public GameObject kiss11;
-    public GameObject kiss12;
+    int I;
+    public Animator anim;
     // Start is called before the first frame update
     void Start()
     {
-        
+        I = 1; 
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (I<12)
+        {
+            Debug.Log("entering");
+            I++;
+            return;
+        }
+        else if (I>=12)
+        {
+            anim.Play("eomg anim");
+        }
         
     }
 }
