@@ -174,21 +174,21 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3681fcff
+      scrollPos: {x: 0, y: 380.5}
+      m_SelectedIDs: 4c51fbff
       m_LastClickedID: 0
-      m_ExpandedIDs: 5aedffff08f1ffff2cfbffff2268000012690000
+      m_ExpandedIDs: 22edffffe6f7ffff48f8ffff72f8ffff2cfbffff0c6800002268000012690000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: SWATHI START
-        m_OriginalName: SWATHI START
+        m_Name: EOG
+        m_OriginalName: EOG
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 27516
+        m_UserData: -297152
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -378,7 +378,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -526,9 +526,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 373.8941, y: -26.105518, z: 0.25233838}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 373.8941, y: -26.105518, z: 0.25233838}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -579,9 +579,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 15.8018465
     speed: 2
-    m_Value: 10
+    m_Value: 15.8018465
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -955,7 +955,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimationWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -964,15 +964,15 @@ MonoBehaviour:
     y: 484
     width: 818.39996
     height: 238.79999
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
   - {fileID: 14}
   - {fileID: 15}
-  m_Selected: 2
-  m_LastSelected: 1
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1014,22 +1014,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/UI/EOMG anim
+    - Assets/UI/nicejob
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 40
   m_LastFolders:
-  - Assets/UI/EOMG anim
+  - Assets/UI/nicejob
   m_LastFoldersGridSize: 40
   m_LastProjectPath: C:\Users\swath\Desktop\Thesis-2\Normal Bad Sex
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 130.69928}
-    m_SelectedIDs: 1c8a0000
-    m_LastClickedID: 35356
-    m_ExpandedIDs: 00000000f6880000
+    scrollPos: {x: 0, y: 114.69928}
+    m_SelectedIDs: 18990000
+    m_LastClickedID: 39192
+    m_ExpandedIDs: 00000000f688000084a3000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1082,9 +1082,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 2cf8ffff
-    m_LastClickedInstanceID: -2004
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 4c51fbff
+    m_LastClickedInstanceID: -306868
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000ac6e0000ae6e0000e86b0000e66b0000947a0000f46b0000587d0000fa6b0000707d0000ea6b0000f66b0000b07600005688000012aa000098750000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1171,7 +1171,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 27516
+  m_LastSelectedObjectID: -191638
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
