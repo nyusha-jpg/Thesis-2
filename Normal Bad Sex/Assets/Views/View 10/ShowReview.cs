@@ -7,6 +7,7 @@ using Debug = UnityEngine.Debug;
 public class ShowReview : MonoBehaviour
 {
     public GameObject emptyReview;
+    public Animator anim;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,7 @@ public class ShowReview : MonoBehaviour
     {
         Debug.Log("clicked");
         Destroy(emptyReview);
+        anim.Play("eomg anim");
       
     }
 }
