@@ -21,13 +21,13 @@ public class EOGControl : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (I<12)
+        if (I<13)
         {
             Debug.Log("entering");
             I++;
             return;
         }
-        else if (I>=12)
+        else if (I>=13)
         {
             anim.Play("eomg anim");
         }
