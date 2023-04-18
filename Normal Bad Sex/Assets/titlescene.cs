@@ -14,6 +14,7 @@ public class titlescene : MonoBehaviour
     public GameObject frame2;
     public GameObject frame3;
     public GameObject text;
+    public GameObject pod;
     public GameObject creators;
 
 
@@ -31,6 +32,7 @@ public class titlescene : MonoBehaviour
    public void startbutton()
     {
         Destroy(credits);
+        Destroy(pod);
         Destroy(title);
         start.Play("move");
       frame.SetActive(true);
@@ -41,6 +43,7 @@ public class titlescene : MonoBehaviour
     public void creditss()
     {
         Destroy(starter);
+        Destroy(pod);
         Destroy(title);
         creditanim.Play("creditplay");
         text.SetActive(true);
@@ -56,6 +59,7 @@ public class titlescene : MonoBehaviour
         Destroy(frame2);
         Destroy(frame3);
         Destroy(starter);
+        Destroy(pod);
         Destroy(creators);
     }
 }
