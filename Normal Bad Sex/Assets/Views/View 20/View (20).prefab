@@ -330,13 +330,13 @@ GameObject:
   - component: {fileID: 6707628051915168917}
   - component: {fileID: 3715285149461102486}
   - component: {fileID: 6580275891116512260}
-  - component: {fileID: 8040692207469609373}
   - component: {fileID: 4849828088375251370}
   - component: {fileID: 2696809492927108931}
   - component: {fileID: 7665367815266355357}
   - component: {fileID: 569756716797663558}
-  - component: {fileID: 8451332926434441616}
   - component: {fileID: 4104166177713493781}
+  - component: {fileID: 8100224879828031500}
+  - component: {fileID: 8100224879828031499}
   m_Layer: 0
   m_Name: Flowchart 20
   m_TagString: Untagged
@@ -384,7 +384,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2696809492927108931}
+  - {fileID: 7475062886670609004}
   selectedCommands: []
   variables:
   - {fileID: 1180897233}
@@ -413,7 +413,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 110.02936
-    y: 14.536583
+    y: -34.2439
     width: 96.34146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -529,8 +529,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 282.3006
-    y: -89.43612
+    x: 268.88596
+    y: -104.07027
     width: 89.02438
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -644,20 +644,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 380.78162
-    y: -91.967766
+    x: 378.3426
+    y: -102.94338
     width: 90.650406
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 199
+  itemId: 211
   blockName: Click 2
   description: 
   eventHandler: {fileID: 4849828088375251370}
   commandList:
   - {fileID: 3715285149461102486}
   - {fileID: 6580275891116512260}
-  - {fileID: 8040692207469609373}
+  - {fileID: 8100224879828031500}
   suppressAllAutoSelections: 0
 --- !u!114 &3715285149461102486
 MonoBehaviour:
@@ -708,27 +708,6 @@ MonoBehaviour:
   stopVoiceover: 0
   waitForVO: 1
   setSayDialog: {fileID: 0}
---- !u!114 &8040692207469609373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8100224880928970610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 206
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
 --- !u!114 &4849828088375251370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -759,20 +738,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 485.59167
-    y: -93.23359
+    x: 488.0307
+    y: -104.2092
     width: 91.46341
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 199
+  itemId: 212
   blockName: Click 3
   description: 
   eventHandler: {fileID: 4104166177713493781}
   commandList:
   - {fileID: 7665367815266355357}
   - {fileID: 569756716797663558}
-  - {fileID: 8451332926434441616}
+  - {fileID: 8100224879828031499}
   suppressAllAutoSelections: 0
 --- !u!114 &7665367815266355357
 MonoBehaviour:
@@ -823,27 +802,6 @@ MonoBehaviour:
   stopVoiceover: 0
   waitForVO: 1
   setSayDialog: {fileID: 0}
---- !u!114 &8451332926434441616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8100224880928970610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 210
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
 --- !u!114 &4104166177713493781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -860,6 +818,48 @@ MonoBehaviour:
   suppressBlockAutoSelect: 0
   clickableObject: {fileID: 2958066115342037751}
   waitFrames: 1
+--- !u!114 &8100224879828031500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8100224880928970610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 213
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 0}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &8100224879828031499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8100224880928970610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 214
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 0}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &8100224881670660283
 GameObject:
   m_ObjectHideFlags: 0
