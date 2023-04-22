@@ -2,21 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 public class CheckInManager : MonoBehaviour
 {
  
-    public GameObject blowjob;
-    public Animator blowjobAnim;
+    public GameObject checkInButton;
+    public GameObject speechBubble;
+    public GameObject speechBubbleAnim;
     public bool isCurrentlyColliding;
 
     // Start is called before the first frame update
     void Start()
     {
-        eyeAnim = eye.GetComponent<Animator>();
-        isCurrentlyColliding = false;
-        bjSeen = false;
-        blowjobAnim = blowjob.GetComponent<Animator>();
 
     }
 
@@ -25,12 +23,13 @@ public class CheckInManager : MonoBehaviour
     {
         Debug.Log("BJ Collision: " + isCurrentlyColliding);
 
-        if (Input.GetMouseButtonDown(0) && (isCurrentlyColliding = true) && bjSeen == false)
+        if (Input.GetMouseButtonDown(0) && (isCurrentlyColliding = true))
         {
             //Debug.Log("spacebar and collider");
-            bjSeen = true;
-            blowjobAnim.enabled = false;
-           
+            //bjSeen = true;
+
+            
+         
 
 
         }
@@ -41,15 +40,15 @@ public class CheckInManager : MonoBehaviour
         if (col.gameObject.name == "CenterCollider")
         {
             isCurrentlyColliding = true;
-            Debug.Log(isCurrentlyColliding);
+            //Debug.Log(isCurrentlyColliding);
         }
 
     }
 
     void OnCollisionExit2D(Collision2D collision)
     {
-        isCurrentlyColliding = false;
-        Debug.Log(isCurrentlyColliding);
+       isCurrentlyColliding = false;
+        //Debug.Log(isCurrentlyColliding);
     }
 
 
