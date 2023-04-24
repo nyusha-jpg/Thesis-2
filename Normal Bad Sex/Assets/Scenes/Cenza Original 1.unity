@@ -1532,8 +1532,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pz: {x: 0, y: 0, z: 0}
-  myOffset: {x: -2.47, y: -2.47, z: 0}
-  moveModifier: 0.1
+  myOffset: {x: -0.15, y: -0.3, z: 0}
+  moveModifier: 0.3
 --- !u!1 &124733365
 GameObject:
   m_ObjectHideFlags: 0
@@ -3553,8 +3553,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pz: {x: 0, y: 0, z: 0}
-  myOffset: {x: -2.47, y: -2.47, z: 0}
-  moveModifier: -0.6
+  myOffset: {x: 0.22, y: 0.07, z: 0}
+  moveModifier: -0.4
 --- !u!1 &364369654
 GameObject:
   m_ObjectHideFlags: 0
@@ -4006,11 +4006,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 402445626}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.231875, y: 23.981533, z: 1.86}
+  m_LocalPosition: {x: 0, y: 0.08623655, z: 0}
+  m_LocalScale: {x: 0.24241403, y: 22.285782, z: 0.9292906}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 483526394}
+  m_Father: {fileID: 2137229244}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &402445628
@@ -4736,12 +4736,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 483526393}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.29569894, y: 0.053763445, z: 5.376344}
-  m_LocalScale: {x: 1, y: 1, z: 0.53763443}
+  m_LocalPosition: {x: -0.29569894, y: 0.14, z: 5.376344}
+  m_LocalScale: {x: 0.92929, y: 1.0454513, z: 0.4996183}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1154352045}
-  - {fileID: 402445627}
+  m_Children: []
   m_Father: {fileID: 1469512906}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4810,7 +4808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pz: {x: 0, y: 0, z: 0}
-  myOffset: {x: -0.95, y: -1.03, z: 0}
+  myOffset: {x: -0.53, y: -0.44, z: 0}
   moveModifier: 1
 --- !u!1 &484948841
 GameObject:
@@ -9787,7 +9785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portraitCanvas: {fileID: 439016221}
   dimPortraits: 1
-  dimColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
+  dimColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
   fadeDuration: 0.5
   moveDuration: 1
   fadeEaseType: 4
@@ -10231,7 +10229,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1059215766}
   selectedCommands: []
   variables: []
   description: 
@@ -10683,11 +10682,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154352044}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.231875, y: 17.283997, z: 1.86}
+  m_LocalPosition: {x: 0, y: 0.08623655, z: 0}
+  m_LocalScale: {x: 0.21547922, y: 18.069584, z: 0.9292906}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 483526394}
+  m_Father: {fileID: 2137229244}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1154352046
@@ -13630,7 +13629,7 @@ Transform:
   m_GameObject: {fileID: 1556811523}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.29569894, y: 0.053763445, z: 5.376344}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.025, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1469512906}
@@ -13701,8 +13700,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pz: {x: 0, y: 0, z: 0}
-  myOffset: {x: -2.47, y: -2.47, z: 0}
-  moveModifier: 0.7
+  myOffset: {x: -0.37, y: -0.49, z: 0}
+  moveModifier: 0.65
 --- !u!1 &1561444230
 GameObject:
   m_ObjectHideFlags: 0
@@ -15176,8 +15175,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pz: {x: 0, y: 0, z: 0}
-  myOffset: {x: -2.47, y: -2.47, z: 0}
-  moveModifier: -0.3
+  myOffset: {x: 0.1, y: -0.03, z: 0}
+  moveModifier: -0.2
 --- !u!114 &1694000914 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3215822784420648752, guid: 5c533bc9486652f429c290aaab968a34, type: 3}
@@ -19147,8 +19146,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pz: {x: 0, y: 0, z: 0}
-  myOffset: {x: -2.47, y: -2.47, z: 0}
-  moveModifier: 0.4
+  myOffset: {x: -0.23, y: -0.26, z: 0}
+  moveModifier: 0.5
 --- !u!4 &2080143049 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2683307946892462004, guid: c9dfadc6dd1d0754daf04c871e79fd96, type: 3}
@@ -19768,8 +19767,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pz: {x: 0, y: 0, z: 0}
-  myOffset: {x: -2.47, y: -2.47, z: 0}
-  moveModifier: 0.4
+  myOffset: {x: 0.22, y: 0.13, z: 0}
+  moveModifier: -0.5
 --- !u!1 &2131206130
 GameObject:
   m_ObjectHideFlags: 0
@@ -20086,7 +20085,9 @@ Transform:
   m_LocalPosition: {x: -0.29569894, y: 0.05376345, z: 5.376344}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1154352045}
+  - {fileID: 402445627}
   m_Father: {fileID: 1469512906}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20155,8 +20156,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pz: {x: 0, y: 0, z: 0}
-  myOffset: {x: -2.47, y: -2.47, z: 0}
-  moveModifier: 0.3
+  myOffset: {x: 0.38, y: 0.2, z: 0}
+  moveModifier: -0.7
 --- !u!1 &2138761117
 GameObject:
   m_ObjectHideFlags: 0
