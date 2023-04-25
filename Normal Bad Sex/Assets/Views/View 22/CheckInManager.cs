@@ -2,15 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
+using Fungus;
 using Debug = UnityEngine.Debug;
+//using Collision2D = UnityEngine.Collision2D;
 
 public class CheckInManager : MonoBehaviour
 {
- 
-    public GameObject checkInButton;
-    public GameObject speechBubble;
-    public GameObject speechBubbleAnim;
-    public bool isCurrentlyColliding;
+
+    public Flowchart flowchart;
 
     // Start is called before the first frame update
     void Start()
@@ -21,34 +20,20 @@ public class CheckInManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("BJ Collision: " + isCurrentlyColliding);
-
-        if (Input.GetMouseButtonDown(0) && (isCurrentlyColliding = true))
-        {
-            //Debug.Log("spacebar and collider");
-            //bjSeen = true;
-
-            
-         
-
-
-        }
+  
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+    void OnCollisionEnter2D(Collision2D coll)
     {
-        if (col.gameObject.name == "CenterCollider")
-        {
-            isCurrentlyColliding = true;
-            //Debug.Log(isCurrentlyColliding);
-        }
+            flowchart.SetBooleanVariable("CheckGreen", true);
+            Debug.Log("on green");
 
     }
 
     void OnCollisionExit2D(Collision2D collision)
     {
-       isCurrentlyColliding = false;
-        //Debug.Log(isCurrentlyColliding);
+        flowchart.SetBooleanVariable("CheckGreen", false);
+        Debug.Log("off green");
     }
 
 

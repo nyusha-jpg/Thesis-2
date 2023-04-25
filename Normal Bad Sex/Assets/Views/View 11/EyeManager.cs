@@ -27,7 +27,7 @@ public class EyeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("BJ Collision: " + isCurrentlyColliding);
+        //Debug.Log("BJ Collision: " + isCurrentlyColliding);
 
         if (Input.GetMouseButtonDown(0) && (isCurrentlyColliding = true) && bjSeen == false)
         {
@@ -45,7 +45,7 @@ public class EyeManager : MonoBehaviour
         if (col.gameObject.name == "CenterCollider")
         {
             isCurrentlyColliding = true;
-            Debug.Log(isCurrentlyColliding);
+           // Debug.Log(isCurrentlyColliding);
         }
        
     }
@@ -53,7 +53,7 @@ public class EyeManager : MonoBehaviour
     void OnCollisionExit2D(Collision2D collision)
     {
         isCurrentlyColliding = false;
-        Debug.Log(isCurrentlyColliding);
+        //Debug.Log(isCurrentlyColliding);
     }
 
 
