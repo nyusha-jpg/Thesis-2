@@ -4,7 +4,7 @@ using System.Diagnostics;
 using UnityEngine;
 using Fungus;
 using Debug = UnityEngine.Debug;
-//using Collision2D = UnityEngine.Collision2D;
+using Collision2D = UnityEngine.Collision2D;
 
 public class CheckInManager : MonoBehaviour
 {
