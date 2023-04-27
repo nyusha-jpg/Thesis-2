@@ -10,7 +10,7 @@ public class ClownCalling : MonoBehaviour
     public GameObject calling;
     Vector3 point;
     bool clownClick;
-
+    public Animator anim;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +27,7 @@ public class ClownCalling : MonoBehaviour
             {
                 clownClick = true;
                 calling.SetActive(true);
+                anim.Play("eomg anim");
             }
 
         }
