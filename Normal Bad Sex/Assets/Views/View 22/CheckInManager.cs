@@ -23,17 +23,15 @@ public class CheckInManager : MonoBehaviour
   
     }
 
-    public void OnCollisionEnter2D(Collision2D col)
+    void OnCollisionEnter2D(Collision2D coll)
     {
-        
-            Debug.Log("on green");
-            flowchart.SetBooleanVariable("CheckGreen", true);
-        
+        Debug.Log("on green");
+        flowchart.SetBooleanVariable("CheckGreen", true);
             
 
     }
 
-    public void OnCollisionExit2D(Collision2D coll)
+    void OnCollisionExit2D(Collision2D collision)
     {
         Debug.Log("off green");
         flowchart.SetBooleanVariable("CheckGreen", false);

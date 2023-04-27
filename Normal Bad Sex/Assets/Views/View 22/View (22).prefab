@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 75475451322543699}
   - component: {fileID: 9207369807992951338}
   - component: {fileID: 5343790592949737492}
-  - component: {fileID: 7176031236760721348}
   m_Layer: 0
   m_Name: Check In
   m_TagString: Untagged
@@ -213,27 +212,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowchart: {fileID: 7531140467691420590}
---- !u!50 &7176031236760721348
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425684347760805020}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 1
-  m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &1961516497780795962
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,7 +412,6 @@ GameObject:
   - component: {fileID: 6539898883261179617}
   - component: {fileID: 755493748030252588}
   - component: {fileID: 72230097104252297}
-  - component: {fileID: 3012941537464277284}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -535,27 +512,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &3012941537464277284
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4434808600189125342}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 1
-  m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
 --- !u!1 &5642602929282112350
 GameObject:
   m_ObjectHideFlags: 0
@@ -567,7 +523,6 @@ GameObject:
   - component: {fileID: 445273825016576659}
   - component: {fileID: 9077957419698187367}
   - component: {fileID: 7286422044633701440}
-  - component: {fileID: 5628582059739638199}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -668,27 +623,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &5628582059739638199
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5642602929282112350}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 1
-  m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
 --- !u!1 &6119492416897466549
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,6 +741,7 @@ GameObject:
   - component: {fileID: 579690195537369587}
   - component: {fileID: 8647183997659434915}
   - component: {fileID: 7756006035780061204}
+  - component: {fileID: 1992066658064370937}
   m_Layer: 0
   m_Name: Flowchart 22
   m_TagString: Untagged
@@ -855,8 +790,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 6400710883022987122}
-  selectedCommands:
-  - {fileID: 7756006035780061204}
+  selectedCommands: []
   variables:
   - {fileID: 2194450614786179009}
   - {fileID: 8647183997659434915}
@@ -884,8 +818,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 354.54443
-    y: -168.17719
+    x: 368.4685
+    y: -145.39238
     width: 94.72572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1403,8 +1337,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 512.06775
-    y: -167.38603
+    x: 524.7259
+    y: -148.39868
     width: 98.94514
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1415,7 +1349,7 @@ MonoBehaviour:
   eventHandler: {fileID: 7602024449058265529}
   commandList:
   - {fileID: 7756006035780061204}
-  - {fileID: 0}
+  - {fileID: 1992066658064370937}
   suppressAllAutoSelections: 0
 --- !u!114 &7602024449058265529
 MonoBehaviour:
@@ -1432,7 +1366,7 @@ MonoBehaviour:
   parentBlock: {fileID: 6400710883022987122}
   suppressBlockAutoSelect: 0
   keyPressType: 0
-  keyCode: 119
+  keyCode: 32
 --- !u!114 &2194450614786179009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1858,6 +1792,32 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1992066658064370937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7531140467691420250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5316d953c7abe498799575550c973535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 189
+  indentLevel: 1
+  animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 3901481885421943467}
+  stateName:
+    stringRef: {fileID: 0}
+    stringVal: SpeechBubble
+  layer:
+    integerRef: {fileID: 0}
+    integerVal: -1
+  time:
+    floatRef: {fileID: 0}
+    floatVal: 0
 --- !u!1 &7531140467803205653
 GameObject:
   m_ObjectHideFlags: 0
@@ -1924,7 +1884,6 @@ GameObject:
   - component: {fileID: 5859345810427581164}
   - component: {fileID: 5740494479874083270}
   - component: {fileID: 8809288994528567705}
-  - component: {fileID: 391143488785745848}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -2025,24 +1984,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &391143488785745848
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8149831555733573580}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 1
-  m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
