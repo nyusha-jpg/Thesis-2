@@ -23,8 +23,8 @@ public class MoveRelative2Mouse : MonoBehaviour
     void Update()
     {
         Vector3 myOrigin = Camera.main.transform.position;
-        Debug.DrawRay(myOrigin, Vector3.left, Color.green, 60f);
-        Debug.DrawRay(myOrigin, Vector3.up, Color.red, 60f);
+        //Debug.DrawRay(myOrigin, Vector3.left, Color.green, 60f);
+        //Debug.DrawRay(myOrigin, Vector3.up, Color.red, 60f);
 
         Vector3 pz = Camera.main.ScreenToViewportPoint(Input.mousePosition);
         //pz = Camera.main.transform.TransformPoint(pz);
@@ -34,7 +34,7 @@ public class MoveRelative2Mouse : MonoBehaviour
 
         transform.position = new Vector3(myOrigin.x + (pz.x * moveModifier), myOrigin.y + (pz.y * moveModifier), 0);
         transform.position += myOffset;
-        Debug.DrawRay(pz, transform.position, Color.magenta, .2f);
+       // Debug.DrawRay(pz, transform.position, Color.magenta, .2f);
         //move based on the starting position and its modified value.
     }
    
