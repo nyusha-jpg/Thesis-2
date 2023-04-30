@@ -7,7 +7,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TenStay
+  m_Name: TenAppear
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -33,7 +33,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RollingLines
+  m_Name: RollingInProgress
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -52,7 +52,7 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-2289927144336754028
+--- !u!1102 &-8742759086910266883
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
@@ -72,20 +72,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: eb65336c67cc26249a19fdf7b8c200a9, type: 2}
+  m_Motion: {fileID: 7400000, guid: 8cfbca96c61a38a408243b669bdcca62, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-945244917084467610
+--- !u!1102 &-2289927144336754028
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RollingTen
+  m_Name: OneAppear
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -98,7 +98,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 9e97c89b46e206c4f8ec35933cc836bd, type: 2}
+  m_Motion: {fileID: 7400000, guid: eb65336c67cc26249a19fdf7b8c200a9, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -145,11 +145,11 @@ AnimatorStateMachine:
     m_State: {fileID: -2289927144336754028}
     m_Position: {x: 580, y: 210, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -945244917084467610}
-    m_Position: {x: 300, y: 470, z: 0}
-  - serializedVersion: 1
     m_State: {fileID: -9148218672540848920}
-    m_Position: {x: 650, y: 340, z: 0}
+    m_Position: {x: 540, y: 300, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -8742759086910266883}
+    m_Position: {x: 310, y: 340, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
