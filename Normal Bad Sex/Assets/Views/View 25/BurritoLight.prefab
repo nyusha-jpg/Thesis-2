@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1174896471811799123}
   - component: {fileID: 5588495916099121570}
   - component: {fileID: 562779533413562476}
+  - component: {fileID: 6865111745732580242}
   m_Layer: 0
   m_Name: BurritoLight
   m_TagString: Untagged
@@ -132,3 +133,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc3f6d8b852ab3d4ba73669ce8393062, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6865111745732580242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8655371092852942840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEnabled: 1
+  hoverCursor: {fileID: 0}
+  useEventSystem: 0

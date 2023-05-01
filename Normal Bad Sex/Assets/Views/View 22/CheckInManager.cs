@@ -10,6 +10,8 @@ public class CheckInManager : MonoBehaviour
 {
 
     public Flowchart flowchart;
+    private int clickCount = 0;
+    public Animator anim; 
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +28,7 @@ public class CheckInManager : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D col)
     {
         
-            Debug.Log("on green");
+           // Debug.Log("on green");
             flowchart.SetBooleanVariable("CheckGreen", true);
         
             
@@ -35,10 +37,23 @@ public class CheckInManager : MonoBehaviour
 
     public void OnCollisionExit2D(Collision2D coll)
     {
-        Debug.Log("off green");
+        //Debug.Log("off green");
         flowchart.SetBooleanVariable("CheckGreen", false);
         
     }
+    public void OnMouseDown()
+    {
+        clickCount++;
 
+        if (clickCount >= 6) // Check if 6 clicks have been registered
+        {
+
+            Debug.Log("Clicked");
+            anim.Play("eomg anim"); // Play the animation
+
+        }
+     
+        }
+   
 
 }
