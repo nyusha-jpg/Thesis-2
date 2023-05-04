@@ -1029,8 +1029,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 5052505472946274067}
-  selectedCommands:
-  - {fileID: 2275336470343120692}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1056,8 +1055,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 140.37595
-    y: -11.801893
+    x: 141.7458
+    y: -10.432031
     width: 94.74885
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1457,7 +1456,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 220
+  itemId: 229
   blockName: Bat
   description: 
   eventHandler: {fileID: 935035176896243972}
@@ -1553,7 +1552,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 220
+  itemId: 230
   blockName: Knife
   description: 
   eventHandler: {fileID: 7300761969668136915}
@@ -1649,7 +1648,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 220
+  itemId: 231
   blockName: Hammer
   description: 
   eventHandler: {fileID: 7293837276737913503}
