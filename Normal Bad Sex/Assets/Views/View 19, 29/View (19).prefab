@@ -25,13 +25,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482763869128106314}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.3415527, y: 2.6983395, z: 6.979974}
+  m_LocalPosition: {x: -1.019104, y: 2.040001, z: -6.8441086}
   m_LocalScale: {x: 1.8, y: 1.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9124029870579221269}
-  m_Father: {fileID: 881454422385013296}
-  m_RootOrder: 0
+  m_Father: {fileID: 6755928963376499602}
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3914318326398896182
 SpriteRenderer:
@@ -169,79 +169,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &4882192442943296870
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 881454422385013296}
-  - component: {fileID: 8923987254362777814}
-  - component: {fileID: 4723647308756061829}
-  m_Layer: 0
-  m_Name: eog controller
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &881454422385013296
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4882192442943296870}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.3606567, y: -0.65833855, z: -13.824082}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 9149706072725279622}
-  m_Father: {fileID: 6755928963376499602}
-  m_RootOrder: 22
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8923987254362777814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4882192442943296870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cdd3d27444bab748a35ff001cc28220, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 7974899251891895852}
---- !u!61 &4723647308756061829
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4882192442943296870}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 7.730896, y: 1.8093567}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 31.33142, y: 17.119724}
-  m_EdgeRadius: 0
 --- !u!1 &6755928963331867729
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,7 +382,7 @@ Transform:
   - {fileID: 6755928965096659614}
   - {fileID: 6755928964788698253}
   - {fileID: 6755928963520213296}
-  - {fileID: 881454422385013296}
+  - {fileID: 9149706072725279622}
   - {fileID: 7969532393349533899}
   - {fileID: 8930956415063312717}
   m_Father: {fileID: 0}
@@ -1708,7 +1635,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 190
+  itemId: 246
   blockName: Pop (Copy)
   description: 
   eventHandler: {fileID: 3135625321915721195}
@@ -2174,7 +2101,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 190
+  itemId: 247
   blockName: Pop (Copy) (Copy)
   description: 
   eventHandler: {fileID: 6488988027740562309}
@@ -2640,7 +2567,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 190
+  itemId: 248
   blockName: Pop (Copy) (Copy) (Copy)
   description: 
   eventHandler: {fileID: 1678362561181189396}
@@ -3106,7 +3033,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 190
+  itemId: 249
   blockName: Pop (Copy) (Copy) (Copy) (Copy)
   description: 
   eventHandler: {fileID: 7087489695362246954}
@@ -3572,7 +3499,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 190
+  itemId: 250
   blockName: Pop (Copy) (Copy) (Copy) (Copy) (Copy)
   description: 
   eventHandler: {fileID: 8684778897466242849}
@@ -4038,7 +3965,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 190
+  itemId: 251
   blockName: Pop (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)
   description: 
   eventHandler: {fileID: 6707790684713586246}
@@ -4504,7 +4431,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 190
+  itemId: 252
   blockName: Pop (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)
   description: 
   eventHandler: {fileID: 1067226539232418551}
@@ -4970,7 +4897,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 190
+  itemId: 253
   blockName: Pop (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)
   description: 
   eventHandler: {fileID: 3832310313932743176}
@@ -5436,7 +5363,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 190
+  itemId: 254
   blockName: Pop (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)
   description: 
   eventHandler: {fileID: 8104224619145930529}
@@ -5902,7 +5829,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 190
+  itemId: 255
   blockName: Pop (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)
   description: 
   eventHandler: {fileID: 8851722087722595130}
@@ -6368,7 +6295,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 190
+  itemId: 256
   blockName: Pop (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)
     (Copy)
   description: 
@@ -6835,7 +6762,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 190
+  itemId: 257
   blockName: Pop (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)
     (Copy) (Copy)
   description: 
@@ -7302,7 +7229,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 190
+  itemId: 258
   blockName: Pop (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)
     (Copy) (Copy) (Copy)
   description: 

@@ -90,8 +90,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 93
-    y: 66.73418
+    x: 94.26582
+    y: 65.46835
     width: 93.881836
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -194,7 +194,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 98f0fea619b6a9344927ac623a9eb0a3, type: 3}
+  portrait: {fileID: 21300000, guid: e9269a5e93ba0be4a8ee67846c26ab0b, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}

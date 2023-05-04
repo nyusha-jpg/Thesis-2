@@ -102,7 +102,6 @@ GameObject:
   - component: {fileID: 2683307946496159601}
   - component: {fileID: 2683307946496159606}
   - component: {fileID: 1423840112}
-  - component: {fileID: 1402773019}
   - component: {fileID: 5670187463841008595}
   - component: {fileID: 1748646592176684658}
   - component: {fileID: 8390119603576888739}
@@ -113,6 +112,9 @@ GameObject:
   - component: {fileID: 910315932792772345}
   - component: {fileID: 902412399325750334}
   - component: {fileID: 1772804598922164212}
+  - component: {fileID: 1492701225}
+  - component: {fileID: 1492701226}
+  - component: {fileID: 1492701245}
   m_Layer: 0
   m_Name: Flowchart 24
   m_TagString: Untagged
@@ -159,8 +161,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1772804598922164212}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 8390119603576888739}
@@ -214,7 +215,7 @@ MonoBehaviour:
   - {fileID: 2683307946496159606}
   - {fileID: 2683307946496159603}
   - {fileID: 1748646592176684658}
-  - {fileID: 1402773019}
+  - {fileID: 1492701225}
   suppressAllAutoSelections: 0
 --- !u!114 &2683307946496159597
 MonoBehaviour:
@@ -415,27 +416,6 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
---- !u!114 &1402773019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2683307946496159605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 184
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
 --- !u!114 &5670187463841008595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -589,18 +569,80 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 731.9254
-    y: -182.18172
-    width: 111.81818
+    x: 703.517
+    y: -177.63623
+    width: 101.81818
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 187
-  blockName: New Block
+  blockName: Continue
   description: 
-  eventHandler: {fileID: 0}
-  commandList: []
+  eventHandler: {fileID: 1492701245}
+  commandList:
+  - {fileID: 1492701226}
   suppressAllAutoSelections: 0
+--- !u!114 &1492701225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2683307946496159605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 189
+  indentLevel: 0
+  spriteRenderer: {fileID: 4442126816385175971}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  waitUntilFinished: 1
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1492701226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2683307946496159605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 188
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 0}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1492701245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2683307946496159605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1772804598922164212}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 691403236188065988}
+  waitFrames: 1
 --- !u!1 &2683307946892462005
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,7 +937,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3753438926565180775}
   m_LocalRotation: {x: -0, y: -0, z: 0.3846964, w: 0.9230432}
-  m_LocalPosition: {x: -15.85, y: 5.05, z: -6.8441086}
+  m_LocalPosition: {x: -14.8, y: 6.3, z: -6.8441086}
   m_LocalScale: {x: 0.7999999, y: 0.7999999, z: 0.79999995}
   m_ConstrainProportionsScale: 1
   m_Children: []

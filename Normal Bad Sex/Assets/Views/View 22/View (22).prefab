@@ -1375,8 +1375,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 2860890645696846952}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 2194450614786179009}
@@ -1618,7 +1617,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 0cdce896dafaa8b4f87805b0128d75dd, type: 3}
+  portrait: {fileID: 21300000, guid: a61191e3f099c064d893c99573aeeee0, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1648,7 +1647,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 0cdce896dafaa8b4f87805b0128d75dd, type: 3}
+  portrait: {fileID: 21300000, guid: 651abf2574dd09c46869449eb176dde3, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1678,7 +1677,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 3539e786e2cccfb45a97aac70ce88866, type: 3}
+  portrait: {fileID: 21300000, guid: a61191e3f099c064d893c99573aeeee0, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1708,7 +1707,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: bac064d92c528a94b9c50b52d4f3a1c4, type: 3}
+  portrait: {fileID: 21300000, guid: f2cbc4ba247031d4ca82842388be8204, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1738,7 +1737,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 6462e7287e0f8c54cacae38a72f2fc1c, type: 3}
+  portrait: {fileID: 21300000, guid: 8c8fad7e634a68c4ba329825c877ec4d, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1768,7 +1767,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 0cdce896dafaa8b4f87805b0128d75dd, type: 3}
+  portrait: {fileID: 21300000, guid: 651abf2574dd09c46869449eb176dde3, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1826,7 +1825,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 837dc65db2a9d8e4daf507cda5b9178c, type: 3}
+  portrait: {fileID: 21300000, guid: 9fb357e85abcf7f4d87db6229c1d421e, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1904,7 +1903,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 512.06775
-    y: -167.38603
+    y: -168.65186
     width: 98.60758
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
