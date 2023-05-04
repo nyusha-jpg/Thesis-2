@@ -780,7 +780,7 @@ MonoBehaviour:
   scrollPos: {x: 489.27002, y: 1201.769}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 405.66666
+  blockViewHeight: 450.8
   zoom: 0.39400005
   scrollViewRect:
     serializedVersion: 2
@@ -790,19 +790,6 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 751562800923549862}
-  - {fileID: 518558977911746541}
-  - {fileID: 1446310590371621495}
-  - {fileID: 8820971150939942407}
-  - {fileID: 8029957783178477079}
-  - {fileID: 9048816194163951701}
-  - {fileID: 8190275909123767770}
-  - {fileID: 8798431996445380807}
-  - {fileID: 371323692293518915}
-  - {fileID: 8062720412040672658}
-  - {fileID: 2397363186608501319}
-  - {fileID: 3741774844516457043}
-  - {fileID: 184944241378163836}
-  - {fileID: 5087396234793456673}
   selectedCommands: []
   variables:
   - {fileID: 1185787242957148022}
@@ -895,7 +882,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: a0d19cce39c0662448ad1a19b33e7369, type: 3}
+  portrait: {fileID: 21300000, guid: 455f1c9da71be254a965510ce1e228c3, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -979,7 +966,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 0cdce896dafaa8b4f87805b0128d75dd, type: 3}
+  portrait: {fileID: 21300000, guid: 9fb357e85abcf7f4d87db6229c1d421e, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1009,7 +996,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 0cdce896dafaa8b4f87805b0128d75dd, type: 3}
+  portrait: {fileID: 21300000, guid: a61191e3f099c064d893c99573aeeee0, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1060,8 +1047,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 889.87177
-    y: -211.5552
+    x: 765.87177
+    y: -295.5552
     width: 97.37732
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}

@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 8366078027167652489}
   - component: {fileID: 3010069841389620929}
   - component: {fileID: 3927366472524585517}
+  - component: {fileID: 877159138}
   m_Layer: 0
   m_Name: Flowchart 17
   m_TagString: Untagged
@@ -314,10 +315,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 6890026728903738875}
-  selectedCommands:
-  - {fileID: 6890026728903738876}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -357,6 +356,7 @@ MonoBehaviour:
   - {fileID: 1035707374}
   - {fileID: 6890026728903738876}
   - {fileID: 6890026728903738877}
+  - {fileID: 877159138}
   suppressAllAutoSelections: 0
 --- !u!114 &6890026728903738877
 MonoBehaviour:
@@ -404,7 +404,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: b078ab8e91e387842b6bac0332428994, type: 3}
+  portrait: {fileID: 21300000, guid: a37439744435b37498f8749614be4679, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -505,6 +505,30 @@ MonoBehaviour:
   suppressBlockAutoSelect: 0
   clickableObject: {fileID: 7777134724203082483}
   waitFrames: 1
+--- !u!114 &877159138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6890026728903738786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 194
+  indentLevel: 0
+  spriteRenderer: {fileID: 8741851798755978461}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  waitUntilFinished: 1
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &6890026729136979617
 GameObject:
   m_ObjectHideFlags: 0
@@ -725,6 +749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   calling: {fileID: 6890026729268465965}
+  anim: {fileID: 7285791951164790008}
 --- !u!1 &6890026729268465965
 GameObject:
   m_ObjectHideFlags: 0
@@ -1410,6 +1435,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 518f9aae8a52077408b4d3fac38a0689, type: 3}
+--- !u!95 &7285791951164790008 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3572220940731622480, guid: 518f9aae8a52077408b4d3fac38a0689, type: 3}
+  m_PrefabInstance: {fileID: 6093160466867482792}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8089023735803208601 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2652265122341720881, guid: 518f9aae8a52077408b4d3fac38a0689, type: 3}
