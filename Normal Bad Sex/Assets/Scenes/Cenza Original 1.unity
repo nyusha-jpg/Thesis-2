@@ -3705,7 +3705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 271
+  itemId: 281
   indentLevel: 0
   spriteRenderer: {fileID: 1702014651}
   _duration:
@@ -3729,7 +3729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 275
+  itemId: 282
   indentLevel: 0
   targetFlowchart: {fileID: 338775264}
   targetBlock: {fileID: 338775299}
@@ -3750,7 +3750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 274
+  itemId: 283
   indentLevel: 0
   targetFlowchart: {fileID: 338775264}
   targetBlock: {fileID: 338775299}
@@ -3771,7 +3771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 273
+  itemId: 284
   indentLevel: 0
   targetFlowchart: {fileID: 338775264}
   targetBlock: {fileID: 338775299}
@@ -3792,7 +3792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 278
+  itemId: 285
   indentLevel: 0
   targetFlowchart: {fileID: 1386688946}
   targetBlock: {fileID: 1386689056}
@@ -3821,7 +3821,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 277
+  itemId: 280
   blockName: New Block
   description: 
   eventHandler: {fileID: 338775367}
@@ -3856,7 +3856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 279
+  itemId: 286
   indentLevel: 1
   targetObject: {fileID: 1360708657}
   methodName: Change
@@ -7955,7 +7955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 202
+  itemId: 204
   indentLevel: 0
   spriteRenderer: {fileID: 7924299699455308801}
   _duration:
@@ -7979,7 +7979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 201
+  itemId: 205
   indentLevel: 0
   targetFlowchart: {fileID: 1386688946}
   targetBlock: {fileID: 1386689103}
@@ -8024,7 +8024,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 200
+  itemId: 203
   blockName: continue
   description: 
   eventHandler: {fileID: 712306938}
@@ -9504,7 +9504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 194
+  itemId: 195
   indentLevel: 0
   spriteRenderer: {fileID: 1375963459}
   _duration:
@@ -12092,7 +12092,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 255.63455
-    y: 245.75119
+    y: 246.94025
     width: 78.53726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -12128,10 +12128,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1059215766}
-  selectedCommands:
-  - {fileID: 1059215768}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -12157,8 +12155,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  targetFlowchart: {fileID: 956256474}
-  targetBlock: {fileID: 956256446}
+  targetFlowchart: {fileID: 1386688946}
+  targetBlock: {fileID: 1386689105}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -13915,7 +13913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 956256474}
+  selectedFlowchart: {fileID: 1059215767}
 --- !u!4 &1298698637
 Transform:
   m_ObjectHideFlags: 1
@@ -14320,7 +14318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 186
+  itemId: 203
   indentLevel: 0
   spriteRenderer: {fileID: 1765018502}
   _duration:
@@ -14344,7 +14342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 185
+  itemId: 204
   indentLevel: 0
   targetFlowchart: {fileID: 1386688946}
   targetBlock: {fileID: 1386689107}
@@ -14410,7 +14408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 192
+  itemId: 205
   indentLevel: 0
   anyVar:
     variable: {fileID: 1354858214}
@@ -14570,7 +14568,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 187
+  itemId: 199
   blockName: 1 (Copy) (Copy)
   description: 
   eventHandler: {fileID: 1354858217}
@@ -14621,7 +14619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 190
+  itemId: 206
   indentLevel: 0
   anyVar:
     variable: {fileID: 1354858212}
@@ -14781,7 +14779,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 196
+  itemId: 200
   blockName: 1 (Copy)
   description: 
   eventHandler: {fileID: 1354858218}
@@ -14800,7 +14798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 188
+  itemId: 207
   indentLevel: 0
   anyVar:
     variable: {fileID: 1354858213}
@@ -14976,7 +14974,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 197
+  itemId: 201
   blockName: 1
   description: 
   eventHandler: {fileID: 1354858222}
@@ -14995,7 +14993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 194
+  itemId: 208
   indentLevel: 0
   anyOrAllConditions: 1
   conditions:
@@ -15424,7 +15422,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 193
+  itemId: 202
   blockName: New Block
   description: 
   eventHandler: {fileID: 1354858226}
@@ -15460,7 +15458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5316d953c7abe498799575550c973535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 195
+  itemId: 209
   indentLevel: 1
   animator:
     animatorRef: {fileID: 0}
@@ -15486,7 +15484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0000066e72e484959b6a314a95d0dcd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 198
+  itemId: 210
   indentLevel: 1
   resetCommands: 1
   resetVariables: 1
@@ -18872,7 +18870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 187
+  itemId: 188
   indentLevel: 0
   spriteRenderer: {fileID: 1539920774}
   _duration:
@@ -19004,7 +19002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 324
+  itemId: 326
   indentLevel: 0
   spriteRenderer: {fileID: 4065954350142013866}
   _duration:
@@ -19028,7 +19026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 322
+  itemId: 327
   indentLevel: 0
   targetFlowchart: {fileID: 1386688946}
   targetBlock: {fileID: 4570941013520897530}
@@ -19049,7 +19047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5316d953c7abe498799575550c973535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 325
+  itemId: 328
   indentLevel: 0
   animator:
     animatorRef: {fileID: 0}
@@ -19733,7 +19731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 208
+  itemId: 215
   indentLevel: 0
   anyVar:
     variable: {fileID: 1816805027}
@@ -19885,7 +19883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 209
+  itemId: 216
   indentLevel: 1
   anyVar:
     variable: {fileID: 1816805027}
@@ -20037,7 +20035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5316d953c7abe498799575550c973535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 213
+  itemId: 217
   indentLevel: 1
   animator:
     animatorRef: {fileID: 0}
@@ -20063,7 +20061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 212
+  itemId: 218
   indentLevel: 1
   spriteRenderer: {fileID: 1993582752}
   _duration:
@@ -20103,7 +20101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 211
+  itemId: 219
   indentLevel: 0
   targetFlowchart: {fileID: 1653753213}
   targetBlock: {fileID: 1653753181}
@@ -20132,7 +20130,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 210
+  itemId: 214
   blockName: Continue
   description: 
   eventHandler: {fileID: 1816805049}
@@ -23278,7 +23276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 201
+  itemId: 208
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
@@ -26440,6 +26438,11 @@ PrefabInstance:
     - {fileID: 1245988380, guid: 9897ac8b54a1ae84ab20370a9ab0f61a, type: 3}
     - {fileID: 1245988385, guid: 9897ac8b54a1ae84ab20370a9ab0f61a, type: 3}
     - {fileID: 1245988383, guid: 9897ac8b54a1ae84ab20370a9ab0f61a, type: 3}
+    - {fileID: 338775359, guid: 9897ac8b54a1ae84ab20370a9ab0f61a, type: 3}
+    - {fileID: 338775361, guid: 9897ac8b54a1ae84ab20370a9ab0f61a, type: 3}
+    - {fileID: 338775362, guid: 9897ac8b54a1ae84ab20370a9ab0f61a, type: 3}
+    - {fileID: 338775363, guid: 9897ac8b54a1ae84ab20370a9ab0f61a, type: 3}
+    - {fileID: 338775368, guid: 9897ac8b54a1ae84ab20370a9ab0f61a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9897ac8b54a1ae84ab20370a9ab0f61a, type: 3}
 --- !u!95 &3044002786799439638 stripped
 Animator:
@@ -26553,7 +26556,8 @@ PrefabInstance:
       propertyPath: nodeRect.y
       value: 77.19696
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1694000936, guid: 5c533bc9486652f429c290aaab968a34, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5c533bc9486652f429c290aaab968a34, type: 3}
 --- !u!1001 &3357680295155774988
 PrefabInstance:
@@ -27738,6 +27742,9 @@ PrefabInstance:
       objectReference: {fileID: 1807560723}
     m_RemovedComponents:
     - {fileID: 6899556990945591489, guid: 7873dcf3eefe7614dadef2ec551d227b, type: 3}
+    - {fileID: 1699442192, guid: 7873dcf3eefe7614dadef2ec551d227b, type: 3}
+    - {fileID: 1699442194, guid: 7873dcf3eefe7614dadef2ec551d227b, type: 3}
+    - {fileID: 1699442197, guid: 7873dcf3eefe7614dadef2ec551d227b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7873dcf3eefe7614dadef2ec551d227b, type: 3}
 --- !u!212 &4065954350142013866 stripped
 SpriteRenderer:
@@ -27958,13 +27965,25 @@ PrefabInstance:
       propertyPath: selectedBlocks.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4570941012755244672, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
+      propertyPath: nodeRect.y
+      value: 67.9561
+      objectReference: {fileID: 0}
     - target: {fileID: 4570941012755244700, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
       propertyPath: nodeRect.y
       value: 68.03807
       objectReference: {fileID: 0}
+    - target: {fileID: 4570941012755244702, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
+      propertyPath: nodeRect.y
+      value: 61.134354
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570941012755244703, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
+      propertyPath: nodeRect.x
+      value: 2332.7595
+      objectReference: {fileID: 0}
     - target: {fileID: 4570941012755244703, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
       propertyPath: nodeRect.y
-      value: 64.87381
+      value: 63.445236
       objectReference: {fileID: 0}
     - target: {fileID: 4570941013087699072, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
       propertyPath: portrait
@@ -29075,6 +29094,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1042488011}
     - target: {fileID: 4570941013087700814, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 001bca2e0b051a043ba5c17a6e4018a4, type: 3}
+    - target: {fileID: 4570941013087700814, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 526105638}
@@ -29403,6 +29426,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1042488011}
     - target: {fileID: 4570941013087700870, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 81327119ac6cfd34180dcc8d54e01744, type: 3}
+    - target: {fileID: 4570941013087700870, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 526105638}
@@ -29599,6 +29626,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1042488011}
     - target: {fileID: 4570941013087700905, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 651abf2574dd09c46869449eb176dde3, type: 3}
+    - target: {fileID: 4570941013087700905, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 1807560723}
@@ -29767,6 +29798,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1042488011}
     - target: {fileID: 4570941013087700965, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 9fb357e85abcf7f4d87db6229c1d421e, type: 3}
+    - target: {fileID: 4570941013087700965, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 1807560723}
@@ -29834,6 +29869,10 @@ PrefabInstance:
       propertyPath: targetView
       value: 
       objectReference: {fileID: 1042488011}
+    - target: {fileID: 4570941013087700979, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: e9269a5e93ba0be4a8ee67846c26ab0b, type: 3}
     - target: {fileID: 4570941013087700979, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
       propertyPath: character
       value: 
@@ -30197,7 +30236,12 @@ PrefabInstance:
       propertyPath: toPosition
       value: 
       objectReference: {fileID: 876565324}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2066113502, guid: df35eb3393c0c5347ae3a1af286e8ad5, type: 3}
+    - {fileID: 2066113503, guid: df35eb3393c0c5347ae3a1af286e8ad5, type: 3}
+    - {fileID: 2066113525, guid: df35eb3393c0c5347ae3a1af286e8ad5, type: 3}
+    - {fileID: 2066113526, guid: df35eb3393c0c5347ae3a1af286e8ad5, type: 3}
+    - {fileID: 2066113527, guid: df35eb3393c0c5347ae3a1af286e8ad5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: df35eb3393c0c5347ae3a1af286e8ad5, type: 3}
 --- !u!1001 &6716984121716702948
 PrefabInstance:
@@ -30673,7 +30717,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: View (17)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 877159138, guid: 9fd046e676d0ec744b1be4fa746bedcf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9fd046e676d0ec744b1be4fa746bedcf, type: 3}
 --- !u!1001 &7470123429222805726
 PrefabInstance:
@@ -30900,6 +30945,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 338948504}
     m_Modifications:
+    - target: {fileID: 1354858215, guid: 726b970f89e48fc4abac0083920a00cc, type: 3}
+      propertyPath: anyVar.variable
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354858219, guid: 726b970f89e48fc4abac0083920a00cc, type: 3}
+      propertyPath: anyVar.variable
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354858221, guid: 726b970f89e48fc4abac0083920a00cc, type: 3}
+      propertyPath: anyVar.variable
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354858224, guid: 726b970f89e48fc4abac0083920a00cc, type: 3}
+      propertyPath: conditions.Array.data[0].anyVar.variable
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354858224, guid: 726b970f89e48fc4abac0083920a00cc, type: 3}
+      propertyPath: conditions.Array.data[1].anyVar.variable
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354858224, guid: 726b970f89e48fc4abac0083920a00cc, type: 3}
+      propertyPath: conditions.Array.data[2].anyVar.variable
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2627925834160289386, guid: 726b970f89e48fc4abac0083920a00cc, type: 3}
       propertyPath: clickableObject
       value: 
@@ -31070,6 +31139,11 @@ PrefabInstance:
       objectReference: {fileID: 1354858209}
     m_RemovedComponents:
     - {fileID: 7709527742494301797, guid: 726b970f89e48fc4abac0083920a00cc, type: 3}
+    - {fileID: 1354858212, guid: 726b970f89e48fc4abac0083920a00cc, type: 3}
+    - {fileID: 1354858213, guid: 726b970f89e48fc4abac0083920a00cc, type: 3}
+    - {fileID: 1354858214, guid: 726b970f89e48fc4abac0083920a00cc, type: 3}
+    - {fileID: 3798505082973411976, guid: 726b970f89e48fc4abac0083920a00cc, type: 3}
+    - {fileID: 1354858209, guid: 726b970f89e48fc4abac0083920a00cc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 726b970f89e48fc4abac0083920a00cc, type: 3}
 --- !u!114 &7709527742295129354 stripped
 MonoBehaviour:
@@ -31242,7 +31316,7 @@ PrefabInstance:
       objectReference: {fileID: 1386688946}
     - target: {fileID: 7924299699899015098, guid: c04d8fb9007966340835bab7b2e66c7f, type: 3}
       propertyPath: selectedBlocks.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7924299699899015136, guid: c04d8fb9007966340835bab7b2e66c7f, type: 3}
       propertyPath: nodeRect.x
@@ -31358,6 +31432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7924299699899013135, guid: c04d8fb9007966340835bab7b2e66c7f, type: 3}
+    - {fileID: 712306936, guid: c04d8fb9007966340835bab7b2e66c7f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c04d8fb9007966340835bab7b2e66c7f, type: 3}
 --- !u!114 &7924299699455308800 stripped
 MonoBehaviour:
@@ -31735,4 +31810,9 @@ PrefabInstance:
     - {fileID: 8763319737074133300, guid: d7616301cdc07e74a9d6e584066e68ee, type: 3}
     - {fileID: 8763319737074133303, guid: d7616301cdc07e74a9d6e584066e68ee, type: 3}
     - {fileID: 8763319737074133305, guid: d7616301cdc07e74a9d6e584066e68ee, type: 3}
+    - {fileID: 1816805027, guid: d7616301cdc07e74a9d6e584066e68ee, type: 3}
+    - {fileID: 1816805028, guid: d7616301cdc07e74a9d6e584066e68ee, type: 3}
+    - {fileID: 1816805029, guid: d7616301cdc07e74a9d6e584066e68ee, type: 3}
+    - {fileID: 1816805047, guid: d7616301cdc07e74a9d6e584066e68ee, type: 3}
+    - {fileID: 1816805048, guid: d7616301cdc07e74a9d6e584066e68ee, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d7616301cdc07e74a9d6e584066e68ee, type: 3}
