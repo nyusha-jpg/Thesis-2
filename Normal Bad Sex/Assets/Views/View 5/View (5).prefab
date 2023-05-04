@@ -1339,7 +1339,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: edf0158baeb4ae64e9cc472608d03213, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2249,7 +2249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -271.9462, y: 122.80175}
+  scrollPos: {x: -279.0051, y: 31.037062}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 435.8
@@ -2260,8 +2260,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1142892291}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 846211357137070833}
@@ -2307,7 +2306,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 455.7831
     y: 64.02672
-    width: 87.64705
+    width: 88.431366
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2561,7 +2560,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 436.6518
     y: 168.96295
-    width: 126.235275
+    width: 128.43135
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3306,9 +3305,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 643.7108
+    x: 644.88727
     y: 158.37463
-    width: 98.94116
+    width: 100.98038
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

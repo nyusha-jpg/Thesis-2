@@ -12093,7 +12093,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 255.63455
     y: 245.75119
-    width: 76.63478
+    width: 78.53726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12157,8 +12157,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  targetFlowchart: {fileID: 1386688946}
-  targetBlock: {fileID: 4570941013520897233}
+  targetFlowchart: {fileID: 956256474}
+  targetBlock: {fileID: 956256446}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -13915,7 +13915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1386688946}
+  selectedFlowchart: {fileID: 956256474}
 --- !u!4 &1298698637
 Transform:
   m_ObjectHideFlags: 1
@@ -20128,7 +20128,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 892.7325
     y: 93.44415
-    width: 101.42854
+    width: 98.5714
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27911,7 +27911,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4488100404455254659, guid: 65909ad0d3a494e4fbd95e04941633b1, type: 3}
       propertyPath: selectedBlocks.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4488100404455254840, guid: 65909ad0d3a494e4fbd95e04941633b1, type: 3}
       propertyPath: character
@@ -27952,7 +27952,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4570941012755244413, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
       propertyPath: blockViewHeight
-      value: 488.66666
+      value: 399.66666
       objectReference: {fileID: 0}
     - target: {fileID: 4570941012755244413, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
       propertyPath: selectedBlocks.Array.size
@@ -29935,17 +29935,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4570941013520897233 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4570941013087699119, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
-  m_PrefabInstance: {fileID: 4570941013520897231}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &4570941013520897530 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4570941012755244703, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
@@ -31565,7 +31554,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8763319736588599843, guid: d7616301cdc07e74a9d6e584066e68ee, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8763319736588599846, guid: d7616301cdc07e74a9d6e584066e68ee, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8763319737048421645, guid: d7616301cdc07e74a9d6e584066e68ee, type: 3}
       propertyPath: m_Name
@@ -31645,7 +31638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8763319737074133304, guid: d7616301cdc07e74a9d6e584066e68ee, type: 3}
       propertyPath: selectedCommands.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8763319737074133304, guid: d7616301cdc07e74a9d6e584066e68ee, type: 3}
       propertyPath: selectedBlocks.Array.data[0]
@@ -31663,6 +31656,10 @@ PrefabInstance:
       propertyPath: targetFlowchart
       value: 
       objectReference: {fileID: 1653753213}
+    - target: {fileID: 8763319737074133321, guid: d7616301cdc07e74a9d6e584066e68ee, type: 3}
+      propertyPath: layer.integerVal
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8763319737074133325, guid: d7616301cdc07e74a9d6e584066e68ee, type: 3}
       propertyPath: conditions.Array.size
       value: 2
