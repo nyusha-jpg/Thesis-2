@@ -3612,10 +3612,10 @@ RectTransform:
   m_Father: {fileID: 439016217}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -861, y: -1213}
-  m_SizeDelta: {x: 528.591, y: 538.005}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -802, y: -13.000061}
+  m_SizeDelta: {x: 550, y: 550}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &332632435
 MonoBehaviour:
@@ -9422,10 +9422,10 @@ RectTransform:
   m_Father: {fileID: 439016217}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 777, y: -1200}
-  m_SizeDelta: {x: 526.104, y: 640.104}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 770, y: -5}
+  m_SizeDelta: {x: 550, y: 550}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &876565325
 MonoBehaviour:
@@ -10931,10 +10931,10 @@ RectTransform:
   m_Father: {fileID: 439016217}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 354, y: -848}
-  m_SizeDelta: {x: 526.104, y: 640.104}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 354, y: 352}
+  m_SizeDelta: {x: 700, y: 700}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &984757573
 MonoBehaviour:
@@ -12009,8 +12009,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 256.8236
-    y: 244.56213
+    x: 255.63455
+    y: 245.75119
     width: 78.53726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -12046,8 +12046,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1059215766}
+  selectedCommands:
+  - {fileID: 1059215768}
   variables: []
   description: 
   stepPause: 0
@@ -12073,8 +12075,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  targetFlowchart: {fileID: 10198303}
-  targetBlock: {fileID: 10198297}
+  targetFlowchart: {fileID: 736747707}
+  targetBlock: {fileID: 736747704}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -13831,7 +13833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 10198303}
+  selectedFlowchart: {fileID: 1059215767}
 --- !u!4 &1298698637
 Transform:
   m_ObjectHideFlags: 1
@@ -17876,10 +17878,10 @@ RectTransform:
   m_Father: {fileID: 439016217}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 1.174, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -422, y: -837.944}
-  m_SizeDelta: {x: 528.591, y: 538.005}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -422, y: 362.05603}
+  m_SizeDelta: {x: 700, y: 700}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1588572758
 MonoBehaviour:
@@ -17901,7 +17903,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ed0b40ef063f6640aff94eb8a1927d6, type: 3}
   m_Type: 3
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -24614,6 +24616,10 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 2229957454006862413, guid: 7324876bff85cf94595ae82d0b381db1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4880775119446581004, guid: 7324876bff85cf94595ae82d0b381db1, type: 3}
       propertyPath: m_Camera
       value: 
@@ -30771,10 +30777,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 371165268, guid: 58e0bd078bcc793479d88e77ed1ce88c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 15d0450833e78cf4db23d6b3bf40a9b4, type: 3}
+    - target: {fileID: 371165268, guid: 58e0bd078bcc793479d88e77ed1ce88c, type: 3}
+      propertyPath: m_SortingOrder
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 1270857416, guid: 58e0bd078bcc793479d88e77ed1ce88c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1270857418, guid: 58e0bd078bcc793479d88e77ed1ce88c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: df27e8d9ece07494bb6b0f1b23dc79ad, type: 3}
     - target: {fileID: 7887525508031983627, guid: 58e0bd078bcc793479d88e77ed1ce88c, type: 3}
       propertyPath: m_RootOrder
       value: 0

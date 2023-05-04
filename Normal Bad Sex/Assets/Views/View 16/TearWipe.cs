@@ -42,9 +42,9 @@ public class TearWipe : MonoBehaviour
         transform.position = pos;
     }
 
-    public void OnCollisionEnter2D(Collision2D col)
+    public void OnTriggerEnter2D(Collider2D col)
     {
-        fadeTearLeftAnim.Play("FadeAway");
+        //fadeTearLeftAnim.Play("FadeAway");
         Debug.Log("Tear hit");
     }
 }
