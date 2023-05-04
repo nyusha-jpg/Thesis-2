@@ -475,6 +475,8 @@ GameObject:
   - component: {fileID: 3215822784420648648}
   - component: {fileID: 3215822784420648651}
   - component: {fileID: 1694000925}
+  - component: {fileID: 6586802689721800276}
+  - component: {fileID: 1694000926}
   - component: {fileID: 1694000927}
   m_Layer: 0
   m_Name: Flowchart 16
@@ -511,7 +513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 32.074318, y: 157.90132}
+  scrollPos: {x: 310.21384, y: 11.907073}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 435.66666
@@ -523,9 +525,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 3215822784420648752}
-  selectedCommands:
-  - {fileID: 3215822784420648658}
+  - {fileID: 6586802689721800276}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -551,9 +552,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 62.586212
-    y: 82.59293
-    width: 92.66667
+    x: -114.413795
+    y: 68.59293
+    width: 94
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -569,7 +570,6 @@ MonoBehaviour:
   - {fileID: 3215822784420648659}
   - {fileID: 3215822784420648651}
   - {fileID: 3215822784420648658}
-  - {fileID: 1694000927}
   suppressAllAutoSelections: 0
 --- !u!114 &3215822784420648656
 MonoBehaviour:
@@ -671,7 +671,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 3539e786e2cccfb45a97aac70ce88866, type: 3}
+  portrait: {fileID: 21300000, guid: 9fb357e85abcf7f4d87db6229c1d421e, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -701,7 +701,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 3539e786e2cccfb45a97aac70ce88866, type: 3}
+  portrait: {fileID: 21300000, guid: a61191e3f099c064d893c99573aeeee0, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -731,7 +731,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 0cdce896dafaa8b4f87805b0128d75dd, type: 3}
+  portrait: {fileID: 21300000, guid: 651abf2574dd09c46869449eb176dde3, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -768,7 +768,34 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
---- !u!114 &1694000927
+--- !u!114 &6586802689721800276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3215822784420648676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 220.89294
+    y: 103.19696
+    width: 102
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 184
+  blockName: Continue
+  description: 
+  eventHandler: {fileID: 1694000927}
+  commandList:
+  - {fileID: 1694000926}
+  suppressAllAutoSelections: 0
+--- !u!114 &1694000926
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -780,7 +807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 184
+  itemId: 186
   indentLevel: 0
   targetFlowchart: {fileID: 0}
   targetBlock: {fileID: 0}
@@ -789,6 +816,22 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &1694000927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3215822784420648676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 6586802689721800276}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 0}
+  waitFrames: 1
 --- !u!1 &3215822784693309884
 GameObject:
   m_ObjectHideFlags: 0
