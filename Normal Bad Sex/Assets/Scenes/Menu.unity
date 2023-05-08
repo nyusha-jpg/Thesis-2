@@ -1241,7 +1241,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A game by \nNyusha Impolski, \nSwathi Sambasivam \nand Sophie Chu "
+  m_text: "A game by \nNyusha Iampolski, \nSwathi Sambasivam \nand Sophie Chu "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 33c649c6f4a10684193eefea1ecb32dd, type: 2}
   m_sharedMaterial: {fileID: 3282310503682543367, guid: 33c649c6f4a10684193eefea1ecb32dd, type: 2}

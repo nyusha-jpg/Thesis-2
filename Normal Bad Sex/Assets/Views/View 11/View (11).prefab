@@ -41,8 +41,7 @@ GameObject:
   - component: {fileID: 928327524}
   - component: {fileID: 928327525}
   - component: {fileID: 928327526}
-  - component: {fileID: 928327527}
-  - component: {fileID: 928327528}
+  - component: {fileID: 6508663404128397339}
   m_Layer: 0
   m_Name: Flowchart 11
   m_TagString: Untagged
@@ -92,7 +91,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 429567457355035026}
   selectedCommands:
-  - {fileID: 928327528}
+  - {fileID: 6508663404128397339}
   variables:
   - {fileID: 429567457355035030}
   - {fileID: 429567457355035029}
@@ -200,8 +199,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 513.005
-    y: 48.773438
-    width: 94.79163
+    y: 8.148468
+    width: 92.18747
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -211,7 +210,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 305292335}
-  - {fileID: 928327528}
+  - {fileID: 0}
   - {fileID: 928327514}
   - {fileID: 429567457355034737}
   - {fileID: 429567457355035017}
@@ -232,7 +231,7 @@ MonoBehaviour:
   - {fileID: 429567457355034744}
   - {fileID: 429567457355035010}
   - {fileID: 928327515}
-  - {fileID: 928327527}
+  - {fileID: 6508663404128397339}
   suppressAllAutoSelections: 0
 --- !u!114 &429567457355035032
 MonoBehaviour:
@@ -829,9 +828,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 676.7489
-    y: 73.30229
-    width: 101.041626
+    x: 706.4364
+    y: 10.802338
+    width: 95.31247
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -879,7 +878,7 @@ MonoBehaviour:
   suppressBlockAutoSelect: 0
   clickableObject: {fileID: 6949420575182431777}
   waitFrames: 1
---- !u!114 &928327527
+--- !u!114 &6508663404128397339
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -903,27 +902,6 @@ MonoBehaviour:
   waitUntilFinished: 1
   durationOLD: 0
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
---- !u!114 &928327528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 429567457355034705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d81be3d7e84da460788dccea95a3313a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 195
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  destroyInXSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  targetGameObjectOLD: {fileID: 0}
 --- !u!1 &429567457860874541
 GameObject:
   m_ObjectHideFlags: 0
