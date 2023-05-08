@@ -1214,6 +1214,7 @@ GameObject:
   - component: {fileID: 2066113502}
   - component: {fileID: 2066113503}
   - component: {fileID: 2066113524}
+  - component: {fileID: 2066113525}
   m_Layer: 0
   m_Name: Flowchart 26
   m_TagString: Untagged
@@ -1568,7 +1569,8 @@ MonoBehaviour:
   blockName: Continue
   description: 
   eventHandler: {fileID: 4586628358342942653}
-  commandList: []
+  commandList:
+  - {fileID: 2066113525}
   suppressAllAutoSelections: 0
 --- !u!114 &4586628358342942653
 MonoBehaviour:
@@ -2351,6 +2353,27 @@ MonoBehaviour:
   waitUntilFinished: 1
   durationOLD: 0
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &2066113525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6649639961950159934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 210
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 0}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &7124935711958707308
 GameObject:
   m_ObjectHideFlags: 0
