@@ -3588,7 +3588,6 @@ GameObject:
   - component: {fileID: 736747734}
   - component: {fileID: 736747732}
   - component: {fileID: 736747731}
-  - component: {fileID: 736747730}
   - component: {fileID: 2530198964860663}
   - component: {fileID: 7591561752726236979}
   - component: {fileID: 1792934922754276445}
@@ -3620,6 +3619,9 @@ GameObject:
   - component: {fileID: 2258145113275590166}
   - component: {fileID: 1603128982463529568}
   - component: {fileID: 8321241252623419259}
+  - component: {fileID: 6872154403087049365}
+  - component: {fileID: 6872154403087049368}
+  - component: {fileID: 6872154403087049370}
   m_Layer: 0
   m_Name: Flowchart 3
   m_TagString: Untagged
@@ -3668,8 +3670,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 3029043057749484733}
-  selectedCommands:
-  - {fileID: 338974881741106044}
+  selectedCommands: []
   variables:
   - {fileID: 6872154402695283232}
   - {fileID: 7792611599412066328}
@@ -3699,7 +3700,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 479.4986
     y: -1.7894802
-    width: 89.21568
+    width: 91.17647
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3720,6 +3721,7 @@ MonoBehaviour:
   - {fileID: 6872154402695283249}
   - {fileID: 6872154402695283236}
   - {fileID: 736747734}
+  - {fileID: 6872154403087049365}
   - {fileID: 6872154402695283262}
   suppressAllAutoSelections: 0
 --- !u!114 &6872154402695283238
@@ -3834,7 +3836,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 458.38348
     y: 119.06447
-    width: 135.49017
+    width: 138.23529
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3846,7 +3848,6 @@ MonoBehaviour:
   - {fileID: 6872154402695283263}
   - {fileID: 6872154402695283260}
   - {fileID: 6872154402695283256}
-  - {fileID: 736747730}
   suppressAllAutoSelections: 0
 --- !u!114 &6872154402695283262
 MonoBehaviour:
@@ -4798,8 +4799,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 638.4326
-    y: 143.83458
+    x: 646.6679
+    y: 83.83461
     width: 99.41176
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4832,30 +4833,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &736747730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6872154402695283205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 186
-  indentLevel: 1
-  spriteRenderer: {fileID: 365754069451311090}
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  _targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
-  waitUntilFinished: 1
-  durationOLD: 0
-  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &2530198964860663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4888,7 +4865,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 605.68787
     y: -10.656916
-    width: 63.333332
+    width: 62.941174
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5152,7 +5129,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 776.27606
     y: -7.1275043
-    width: 64.90196
+    width: 65.29411
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5284,7 +5261,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 872.7464
     y: -10.656917
-    width: 64.90196
+    width: 65.29411
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5414,7 +5391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 973.92285
+    x: 977.4522
     y: -9.480445
     width: 64.117645
     height: 40
@@ -5429,6 +5406,8 @@ MonoBehaviour:
   - {fileID: 338974881741106044}
   - {fileID: 2258145113275590166}
   - {fileID: 1603128982463529568}
+  - {fileID: 6872154403087049370}
+  - {fileID: 6872154403087049368}
   suppressAllAutoSelections: 0
 --- !u!114 &8048703718646441084
 MonoBehaviour:
@@ -5532,6 +5511,74 @@ MonoBehaviour:
   suppressBlockAutoSelect: 0
   clickableObject: {fileID: 3493899129368435083}
   waitFrames: 1
+--- !u!114 &6872154403087049365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6872154402695283205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 216
+  indentLevel: 0
+  spriteRenderer: {fileID: 365754069451311090}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  waitUntilFinished: 1
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &6872154403087049368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6872154402695283205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5316d953c7abe498799575550c973535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 218
+  indentLevel: 0
+  animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 2037008103890255317}
+  stateName:
+    stringRef: {fileID: 0}
+    stringVal: 'eomg anim '
+  layer:
+    integerRef: {fileID: 0}
+    integerVal: -1
+  time:
+    floatRef: {fileID: 0}
+    floatVal: 0
+--- !u!114 &6872154403087049370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6872154402695283205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 217
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 3
+  durationOLD: 0
 --- !u!1 &7007416599906628041
 GameObject:
   m_ObjectHideFlags: 0

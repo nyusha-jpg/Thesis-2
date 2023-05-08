@@ -446,9 +446,9 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands:
-  - {fileID: 0}
+  selectedBlocks:
+  - {fileID: 2184699304422723134}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -476,7 +476,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 640.4371
     y: 75.0999
-    width: 92.98244
+    width: 93.421036
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -708,9 +708,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 793.5273
-    y: 129.29324
-    width: 114.2105
+    x: 836.94855
+    y: 46.398544
+    width: 109.2105
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -793,7 +793,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2184699304917128787
 Transform:
   m_ObjectHideFlags: 0
@@ -1035,7 +1035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   emptyReview: {fileID: 2184699305351573226}
-  anim: {fileID: 0}
+  anim: {fileID: 8544724307258790337}
 --- !u!1 &2184699305523787956
 GameObject:
   m_ObjectHideFlags: 0
@@ -1265,5 +1265,10 @@ PrefabInstance:
 --- !u!4 &7190379895663191712 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2652265122341720881, guid: 518f9aae8a52077408b4d3fac38a0689, type: 3}
+  m_PrefabInstance: {fileID: 5118307409899255185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8544724307258790337 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3572220940731622480, guid: 518f9aae8a52077408b4d3fac38a0689, type: 3}
   m_PrefabInstance: {fileID: 5118307409899255185}
   m_PrefabAsset: {fileID: 0}
