@@ -27,12 +27,15 @@ public class ClownCalling : MonoBehaviour
             {
                 clownClick = true;
                 calling.SetActive(true);
-                anim.Play("eomg anim");
+                Invoke("PlayAnimation", 1f);
             }
 
         }
     }
-
+    void PlayAnimation()
+    {
+        anim.Play("eomg anim");
+    }
     /*
     void OnMouseDown()
     {

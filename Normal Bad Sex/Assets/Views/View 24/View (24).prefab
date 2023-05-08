@@ -112,9 +112,9 @@ GameObject:
   - component: {fileID: 910315932792772345}
   - component: {fileID: 902412399325750334}
   - component: {fileID: 1772804598922164212}
+  - component: {fileID: 1492701245}
   - component: {fileID: 1492701225}
   - component: {fileID: 1492701226}
-  - component: {fileID: 1492701245}
   m_Layer: 0
   m_Name: Flowchart 24
   m_TagString: Untagged
@@ -582,6 +582,22 @@ MonoBehaviour:
   commandList:
   - {fileID: 1492701226}
   suppressAllAutoSelections: 0
+--- !u!114 &1492701245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2683307946496159605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1772804598922164212}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 691403236188065988}
+  waitFrames: 1
 --- !u!114 &1492701225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -594,7 +610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 189
+  itemId: 190
   indentLevel: 0
   spriteRenderer: {fileID: 4442126816385175971}
   _duration:
@@ -618,7 +634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 188
+  itemId: 191
   indentLevel: 0
   targetFlowchart: {fileID: 0}
   targetBlock: {fileID: 0}
@@ -627,22 +643,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &1492701245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2683307946496159605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1772804598922164212}
-  suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 691403236188065988}
-  waitFrames: 1
 --- !u!1 &2683307946892462005
 GameObject:
   m_ObjectHideFlags: 0
