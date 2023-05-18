@@ -860,8 +860,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 235901988056464335}
+  selectedCommands:
+  - {fileID: 1699442197}
   variables:
   - {fileID: 406505710625653999}
   description: 
@@ -3675,7 +3677,7 @@ MonoBehaviour:
     animatorVal: {fileID: 1757711014541607235}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 28
   layer:
     integerRef: {fileID: 0}
     integerVal: -1

@@ -25,7 +25,7 @@ public class ShowerManager : MonoBehaviour
                 allClothesOff = true;
                 Debug.Log("All clothes off");
                 flowchart.SetBooleanVariable("allClothesOff", true);
-                anim.Play("eomg anim");
+                anim.Play("5");
 
             }
         }

@@ -916,7 +916,6 @@ GameObject:
   - component: {fileID: 6065382629310693235}
   - component: {fileID: 508271048689942101}
   - component: {fileID: 508271048689942102}
-  - component: {fileID: 508271048689942104}
   - component: {fileID: 508271048689942103}
   - component: {fileID: 660443656750365914}
   - component: {fileID: 508271048689942105}
@@ -937,6 +936,9 @@ GameObject:
   - component: {fileID: 508271048689942158}
   - component: {fileID: 7035902914444087101}
   - component: {fileID: 2996744570195459783}
+  - component: {fileID: 6958743036142121411}
+  - component: {fileID: 1938822758628835111}
+  - component: {fileID: 2431208847375989005}
   m_Layer: 0
   m_Name: Flowchart 14
   m_TagString: Untagged
@@ -972,7 +974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -32.047485, y: 21.683498}
+  scrollPos: {x: -708.36426, y: -52.00067}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 567.6667
@@ -984,8 +986,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1182373872}
-  selectedCommands: []
+  - {fileID: 1182373882}
+  selectedCommands:
+  - {fileID: 1938822758628835111}
   variables:
   - {fileID: 1182373879}
   - {fileID: 1182373878}
@@ -1077,7 +1080,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 577833677ab2ba8489b1ac0f3162ad52, type: 3}
+  portrait: {fileID: 21300000, guid: ef28174ada3207d4a97cfa6e368043e2, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1132,7 +1135,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 0}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: c0b28d7189c3fd44aa2506ed35555f34, type: 3}
+  portrait: {fileID: 21300000, guid: 91d127e358d195f46904812b49b7f414, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1244,7 +1247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 805.7311
+    x: 807.0469
     y: 110.4256
     width: 98.421036
     height: 40
@@ -1867,7 +1870,7 @@ MonoBehaviour:
   itemId: 227
   blockName: Full Grin
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 6958743036142121411}
   commandList:
   - {fileID: 1182373887}
   - {fileID: 1182373886}
@@ -1876,6 +1879,8 @@ MonoBehaviour:
   - {fileID: 1182373883}
   - {fileID: 1182373889}
   - {fileID: 1182373881}
+  - {fileID: 1938822758628835111}
+  - {fileID: 2431208847375989005}
   suppressAllAutoSelections: 0
 --- !u!114 &1182373887
 MonoBehaviour:
@@ -2393,32 +2398,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &508271048689942104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 508271048706309360}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 1364.2198
-    y: 230.5154
-    width: 72.105255
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 242
-  blockName: eog
-  description: 
-  eventHandler: {fileID: 0}
-  commandList: []
-  suppressAllAutoSelections: 0
 --- !u!114 &508271048689942103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3453,6 +3432,63 @@ MonoBehaviour:
   targetObject: {fileID: 5192007064439592336}
   methodName: Change
   delay: 0
+--- !u!114 &6958743036142121411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508271048706309360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fbef54b0b0adb41ab9b447a8f3cbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1182373882}
+  suppressBlockAutoSelect: 0
+  FireOn: 1
+--- !u!114 &1938822758628835111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508271048706309360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5316d953c7abe498799575550c973535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 267
+  indentLevel: 1
+  animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 4158031533316403263}
+  stateName:
+    stringRef: {fileID: 0}
+    stringVal: 14
+  layer:
+    integerRef: {fileID: 0}
+    integerVal: -1
+  time:
+    floatRef: {fileID: 0}
+    floatVal: 0
+--- !u!114 &2431208847375989005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508271048706309360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0000066e72e484959b6a314a95d0dcd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 268
+  indentLevel: 1
+  resetCommands: 0
+  resetVariables: 1
 --- !u!1 &508271049016241284
 GameObject:
   m_ObjectHideFlags: 0
@@ -3673,7 +3709,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8066056156794315914}
-  - component: {fileID: 1880276314037540084}
   m_Layer: 0
   m_Name: EOG Controller
   m_TagString: Untagged
@@ -3696,19 +3731,6 @@ Transform:
   m_Father: {fileID: 508271047560540253}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1880276314037540084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5192007064439592336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58e06cc40474d4f4b9d38b1bc7cb51bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 4158031533316403263}
 --- !u!1 &7290324552276866210
 GameObject:
   m_ObjectHideFlags: 0

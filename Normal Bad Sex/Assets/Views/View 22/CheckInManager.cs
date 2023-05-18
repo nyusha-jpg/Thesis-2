@@ -49,7 +49,7 @@ public class CheckInManager : MonoBehaviour
         {
 
             Debug.Log("Clicked");
-            anim.Play("eomg anim"); // Play the animation
+            anim.Play("22"); // Play the animation
 
         }
      

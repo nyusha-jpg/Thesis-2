@@ -1250,11 +1250,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 69.14454, y: 114.06473}
+  scrollPos: {x: 52.489914, y: 109.57664}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 539.6667
-  zoom: 0.7300002
+  zoom: 0.76000017
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1262,8 +1262,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 6649639961950160023}
-  selectedCommands: []
+  - {fileID: 1668983801018081220}
+  selectedCommands:
+  - {fileID: 3537190435215963128}
   variables:
   - {fileID: 1270115073819239559}
   description: 
@@ -1292,10 +1293,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 64.485535
     y: -40.2291
-    width: 93.8356
+    width: 97.36841
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 0
   blockName: View 26
   description: 
@@ -1561,7 +1562,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 456.8826
     y: -33.242813
-    width: 100.68492
+    width: 103.6842
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1604,7 +1605,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 247.29369
     y: -27.763351
-    width: 97.94519
+    width: 101.57893
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2070,7 +2071,7 @@ MonoBehaviour:
     animatorVal: {fileID: 7754007670411597737}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 26
   layer:
     integerRef: {fileID: 0}
     integerVal: -1

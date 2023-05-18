@@ -775,19 +775,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 489.27002, y: 1201.769}
+  scrollPos: {x: 836.4792, y: 733.834}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 450.8
-  zoom: 0.39400005
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 751562800923549862}
+  selectedCommands:
+  - {fileID: 1370520574003774062}
   variables:
   - {fileID: 1185787242957148022}
   description: 
@@ -816,7 +818,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 484.8246
     y: -286.13638
-    width: 95.68527
+    width: 98
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1046,7 +1048,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 765.87177
     y: -295.5552
-    width: 97.37732
+    width: 94.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1134,7 +1136,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 508.06244
     y: -424.96347
-    width: 71.99661
+    width: 72.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1592,7 +1594,7 @@ MonoBehaviour:
     animatorVal: {fileID: 7974899251891895852}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 19
   layer:
     integerRef: {fileID: 0}
     integerVal: -1
@@ -1615,7 +1617,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 485.78308
     y: -463.56647
-    width: 110.9137
+    width: 110.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2042,7 +2044,7 @@ MonoBehaviour:
     animatorVal: {fileID: 7974899251891895852}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 19
   layer:
     integerRef: {fileID: 0}
     integerVal: -1
@@ -2081,7 +2083,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 465.34192
     y: -505.84592
-    width: 149.83078
+    width: 149.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2508,7 +2510,7 @@ MonoBehaviour:
     animatorVal: {fileID: 7974899251891895852}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 19
   layer:
     integerRef: {fileID: 0}
     integerVal: -1
@@ -2547,7 +2549,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 446.73914
     y: -546.287
-    width: 188.74786
+    width: 187.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2974,7 +2976,7 @@ MonoBehaviour:
     animatorVal: {fileID: 7974899251891895852}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 19
   layer:
     integerRef: {fileID: 0}
     integerVal: -1
@@ -3013,7 +3015,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 428.1362
     y: -590.40454
-    width: 227.66495
+    width: 226
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3440,7 +3442,7 @@ MonoBehaviour:
     animatorVal: {fileID: 7974899251891895852}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 19
   layer:
     integerRef: {fileID: 0}
     integerVal: -1
@@ -3906,7 +3908,7 @@ MonoBehaviour:
     animatorVal: {fileID: 7974899251891895852}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 19
   layer:
     integerRef: {fileID: 0}
     integerVal: -1
@@ -4372,7 +4374,7 @@ MonoBehaviour:
     animatorVal: {fileID: 7974899251891895852}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 19
   layer:
     integerRef: {fileID: 0}
     integerVal: -1
@@ -4838,7 +4840,7 @@ MonoBehaviour:
     animatorVal: {fileID: 7974899251891895852}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 19
   layer:
     integerRef: {fileID: 0}
     integerVal: -1
@@ -4876,7 +4878,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 427.25385
-    y: -774.22833
+    y: -771.69025
     width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5304,7 +5306,7 @@ MonoBehaviour:
     animatorVal: {fileID: 7974899251891895852}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 19
   layer:
     integerRef: {fileID: 0}
     integerVal: -1
@@ -5770,7 +5772,7 @@ MonoBehaviour:
     animatorVal: {fileID: 7974899251891895852}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 19
   layer:
     integerRef: {fileID: 0}
     integerVal: -1
@@ -5807,8 +5809,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 432.32742
-    y: -882.6843
+    x: 429.78937
+    y: -885.2224
     width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6236,7 +6238,7 @@ MonoBehaviour:
     animatorVal: {fileID: 7974899251891895852}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 19
   layer:
     integerRef: {fileID: 0}
     integerVal: -1
@@ -6703,7 +6705,7 @@ MonoBehaviour:
     animatorVal: {fileID: 7974899251891895852}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 19
   layer:
     integerRef: {fileID: 0}
     integerVal: -1
@@ -7170,7 +7172,7 @@ MonoBehaviour:
     animatorVal: {fileID: 7974899251891895852}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 19
   layer:
     integerRef: {fileID: 0}
     integerVal: -1

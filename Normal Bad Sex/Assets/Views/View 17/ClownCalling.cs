@@ -34,7 +34,7 @@ public class ClownCalling : MonoBehaviour
     }
     void PlayAnimation()
     {
-        anim.Play("eomg anim");
+        anim.Play("17");
     }
     /*
     void OnMouseDown()

@@ -56,7 +56,7 @@ public class ShipManager : MonoBehaviour
         {
             speechLion.SetActive(true);
             speechTiger.SetActive(true);
-            anim.Play("eomg anim");
+            anim.Play("4");
         }
     }
 

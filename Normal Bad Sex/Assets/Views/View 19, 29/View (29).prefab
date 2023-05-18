@@ -544,19 +544,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 2342.3813, y: 3441.3782}
+  scrollPos: {x: 3535.662, y: 3464.7546}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.25
+  zoom: 0.52
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 7791542473931235111}
+  selectedCommands:
+  - {fileID: 7537681495513286714}
   variables:
   - {fileID: 3766843666678568586}
   - {fileID: 8912722419787173567}
@@ -589,7 +591,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -3096.064
     y: -3455.1277
-    width: 96.56718
+    width: 97.69231
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -958,7 +960,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -3218.898
     y: -3320.4272
-    width: 78.8
+    width: 83.84615
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1153,7 +1155,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -3140.0935
     y: -3320.4272
-    width: 117.2
+    width: 128.46155
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1348,7 +1350,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -3001.0525
     y: -3320.4272
-    width: 155.6
+    width: 173.07693
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1543,7 +1545,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2993.961
     y: -3283.1362
-    width: 194
+    width: 217.6923
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1738,7 +1740,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2985.4353
     y: -3247.2803
-    width: 232.4
+    width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1933,7 +1935,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2857.478
     y: -3182.7437
-    width: 85.2
+    width: 93.07692
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2579,7 +2581,7 @@ MonoBehaviour:
     animatorVal: {fileID: 7159891935486336584}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 29
   layer:
     integerRef: {fileID: 0}
     integerVal: -1
@@ -2655,7 +2657,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2879.1572
     y: -3416.004
-    width: 106
+    width: 103.84616
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2743,7 +2745,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2879.1572
     y: -3416.004
-    width: 106
+    width: 103.84616
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

@@ -24,7 +24,7 @@ public class ShowReview : MonoBehaviour
     {
         Debug.Log("clicked");
         Destroy(emptyReview);
-        anim.Play("eomg anim");
+        anim.Play("10");
       
     }
 }

@@ -27,7 +27,7 @@ public class Viewtwoend : MonoBehaviour
             four.GetCurrentAnimatorStateInfo(0).IsName("GlassFill") && 
             five.GetCurrentAnimatorStateInfo(0).IsName("GlassFill"))
         {
-            anim.Play("eomg anim");
+            anim.Play("2");
             animationPlayed = true;
             //Debug.Log("nicejob");
         }

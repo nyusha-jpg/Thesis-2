@@ -19,6 +19,6 @@ public class MoonSpinend : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other)
     {
 
-        anim.Play("eomg anim");
+        anim.Play("9");
     }
 }

@@ -1122,8 +1122,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 5052505472946274067}
+  selectedCommands:
+  - {fileID: 2006498187}
   variables: []
   description: 
   stepPause: 0
@@ -1151,7 +1153,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 141.7458
     y: -10.432031
-    width: 92.465744
+    width: 92.739716
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1329,7 +1331,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 293.02203
     y: 19.955017
-    width: 71.9178
+    width: 69.72602
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1451,7 +1453,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 286.02203
     y: 85.95501
-    width: 82.87671
+    width: 80.68492
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1547,7 +1549,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 368.04944
     y: 133.62627
-    width: 69.17808
+    width: 68.63013
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1643,7 +1645,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 454.20007
     y: 85.66734
-    width: 79.22374
+    width: 78.49314
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1739,7 +1741,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 479.00848
     y: 11.639954
-    width: 96.57533
+    width: 96.02739
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1812,7 +1814,7 @@ MonoBehaviour:
     animatorVal: {fileID: 7954767100996497958}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 15
   layer:
     integerRef: {fileID: 0}
     integerVal: -1
@@ -1872,7 +1874,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 696.28107
     y: 34.08233
-    width: 100.68492
+    width: 99.315056
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

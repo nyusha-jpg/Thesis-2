@@ -29,7 +29,7 @@ public class EOGControl : MonoBehaviour
         }
         else if (I>=13)
         {
-            anim.Play("eomg anim");
+            anim.Play("7");
         }
         
     }

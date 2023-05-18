@@ -200,7 +200,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6510137724031855839}
-  - {fileID: 6274993910081101166}
   m_Father: {fileID: 7709527742499204210}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -457,7 +456,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7709527742499204210}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45.25}
 --- !u!212 &130805936585375615
 SpriteRenderer:
@@ -720,7 +719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 426.0856, y: 219.51025}
+  scrollPos: {x: 111.33148, y: 257.21515}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 538.8
@@ -731,8 +730,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 2981652357146238988}
+  selectedCommands:
+  - {fileID: 5116105682040160238}
   variables:
   - {fileID: 1354858214}
   - {fileID: 1354858213}
@@ -763,7 +764,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 184.85739
     y: -28.285652
-    width: 94.2623
+    width: 93.278694
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1131,7 +1132,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 461.0556
     y: -140.16837
-    width: 131.96722
+    width: 135.24591
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1342,7 +1343,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 360.72775
     y: -140.16837
-    width: 94.2623
+    width: 95.90164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1806,7 +1807,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 461.0556
     y: -140.16837
-    width: 131.96722
+    width: 135.24591
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2017,7 +2018,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 360.72775
     y: -140.16837
-    width: 94.2623
+    width: 95.90164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2707,7 +2708,7 @@ MonoBehaviour:
     animatorVal: {fileID: 7264664022155390536}
   stateName:
     stringRef: {fileID: 0}
-    stringVal: eomg anim
+    stringVal: 25
   layer:
     integerRef: {fileID: 0}
     integerVal: -1
@@ -2763,6 +2764,7 @@ Transform:
   - {fileID: 6659950974115282661}
   - {fileID: 2202088687943641097}
   - {fileID: 2221234817941478373}
+  - {fileID: 6274993910081101166}
   - {fileID: 6004305936266868514}
   - {fileID: 8182174551257569577}
   m_Father: {fileID: 0}
@@ -3127,7 +3129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2652265122341720881, guid: 518f9aae8a52077408b4d3fac38a0689, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2652265122341720881, guid: 518f9aae8a52077408b4d3fac38a0689, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3186,23 +3188,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 6659950974115282661}
+    m_TransformParent: {fileID: 7709527742499204210}
     m_Modifications:
     - target: {fileID: 3308912878878800763, guid: 1e3f52dc14328b845babf1b98c82007f, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3308912878878800763, guid: 1e3f52dc14328b845babf1b98c82007f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.0720215
+      value: -4.0300293
       objectReference: {fileID: 0}
     - target: {fileID: 3308912878878800763, guid: 1e3f52dc14328b845babf1b98c82007f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.8392277
+      value: -2.1074066
       objectReference: {fileID: 0}
     - target: {fileID: 3308912878878800763, guid: 1e3f52dc14328b845babf1b98c82007f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -6.8441086
       objectReference: {fileID: 0}
     - target: {fileID: 3308912878878800763, guid: 1e3f52dc14328b845babf1b98c82007f, type: 3}
       propertyPath: m_LocalRotation.w

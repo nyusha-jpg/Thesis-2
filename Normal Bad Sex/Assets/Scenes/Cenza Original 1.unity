@@ -11602,7 +11602,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 255.63455
     y: 295.02853
-    width: 77.126816
+    width: 77.62003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11639,8 +11639,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1059215766}
-  selectedCommands:
-  - {fileID: 1059215768}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -13483,7 +13482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1059215767}
+  selectedFlowchart: {fileID: 2066113473}
 --- !u!4 &1298698637
 Transform:
   m_ObjectHideFlags: 1
@@ -28604,6 +28603,14 @@ PrefabInstance:
     - target: {fileID: 6649639960614964575, guid: df35eb3393c0c5347ae3a1af286e8ad5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6649639961950160022, guid: df35eb3393c0c5347ae3a1af286e8ad5, type: 3}
+      propertyPath: selectedCommands.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6649639961950160023, guid: df35eb3393c0c5347ae3a1af286e8ad5, type: 3}
+      propertyPath: useCustomTint
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6649639961950160097, guid: df35eb3393c0c5347ae3a1af286e8ad5, type: 3}
       propertyPath: character
