@@ -11615,7 +11615,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 256.86758
     y: 295.02853
-    width: 78.77087
+    width: 77.62003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11652,7 +11652,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1059215766}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1059215768}
   variables: []
   description: 
   stepPause: 0
@@ -11678,8 +11679,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  targetFlowchart: {fileID: 10198303}
-  targetBlock: {fileID: 10198297}
+  targetFlowchart: {fileID: 1386688946}
+  targetBlock: {fileID: 4570941013520898876}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -13495,7 +13496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 1059215767}
 --- !u!4 &1298698637
 Transform:
   m_ObjectHideFlags: 1
@@ -28700,6 +28701,17 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &4570941013520898876 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4570941013087699119, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
+  m_PrefabInstance: {fileID: 4570941013520897231}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862902525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5119961536677008087
 PrefabInstance:
   m_ObjectHideFlags: 0
