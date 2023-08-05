@@ -4465,11 +4465,7 @@ MonoBehaviour:
   indentLevel: 1
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-<<<<<<< Updated upstream
     gameObjectVal: {fileID: 1228585879}
-=======
-    gameObjectVal: {fileID: 0}
->>>>>>> Stashed changes
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -12421,14 +12417,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1171017693911745341, guid: be07c3df54004ae4e87c85b6f5d58e46, type: 3}
   m_PrefabInstance: {fileID: 1171017692276901412}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
 --- !u!1 &1228585879 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 835961447078218455, guid: 493e126f5410f8948a8dcdb8c6e4c9cd, type: 3}
   m_PrefabInstance: {fileID: 846211357000430249}
   m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> Stashed changes
 --- !u!1 &1230771270
 GameObject:
   m_ObjectHideFlags: 0
@@ -25911,25 +25904,6 @@ PrefabInstance:
     - {fileID: 4570941013087700773, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
     - {fileID: 4570941013087700774, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
     - {fileID: 4570941012755244401, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
-<<<<<<< Updated upstream
-=======
-    - {fileID: 4570941013087700797, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
-    - {fileID: 4570941013087700753, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
-    - {fileID: 4570941013087700850, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
-    - {fileID: 4570941013087700853, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
-    - {fileID: 4570941013087700858, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
-    - {fileID: 4570941013087700746, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
-    - {fileID: 4570941013087700747, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
-    - {fileID: 4570941013087700750, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
-    - {fileID: 4570941013087699197, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
-    - {fileID: 4570941013087699198, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
-    - {fileID: 4570941013087699101, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
-    - {fileID: 4570941013087700796, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
-    - {fileID: 4570941013087700740, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
-    - {fileID: 4570941013087700922, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
-    - {fileID: 4570941013087700795, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
-    - {fileID: 4570941013520898166, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
->>>>>>> Stashed changes
   m_SourcePrefab: {fileID: 100100000, guid: bae65e5ffbbfffe4c8ec832fa27dc4e9, type: 3}
 --- !u!114 &4570941013520897232 stripped
 MonoBehaviour:
