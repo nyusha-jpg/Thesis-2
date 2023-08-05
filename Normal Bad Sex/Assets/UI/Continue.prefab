@@ -8,11 +8,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3813102256621614273}
+  - component: {fileID: 3565884566586868149}
   - component: {fileID: 4648372410388034347}
   - component: {fileID: 216732016822975994}
   - component: {fileID: 667611384682787285}
   - component: {fileID: 693022427446930867}
+  - component: {fileID: 9223200030587378910}
   m_Layer: 0
   m_Name: Continue
   m_TagString: Untagged
@@ -20,21 +21,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3813102256621614273
-Transform:
+--- !u!224 &3565884566586868149
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3638117337152488116}
   m_LocalRotation: {x: -0, y: -0, z: 0.3846964, w: 0.9230432}
-  m_LocalPosition: {x: -14.64, y: 6.32, z: -6.8441086}
+  m_LocalPosition: {x: 0, y: 0, z: -6.8441086}
   m_LocalScale: {x: 0.7999999, y: 0.7999999, z: 0.79999995}
-  m_ConstrainProportionsScale: 1
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45.25}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -14.64, y: 6.32}
+  m_SizeDelta: {x: 23.15414, y: 3.55}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &4648372410388034347
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -148,3 +154,11 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!222 &9223200030587378910
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3638117337152488116}
+  m_CullTransparentMesh: 1

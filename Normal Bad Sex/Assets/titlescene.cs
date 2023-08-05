@@ -54,7 +54,7 @@ public class titlescene : MonoBehaviour
     }
     public void cenza()
     {
-        SceneManager.LoadScene("Cenza Original 1");
+        SceneManager.LoadScene("Cenza 5 Min");
         Destroy(frame);
         Destroy(frame2);
         Destroy(frame3);
